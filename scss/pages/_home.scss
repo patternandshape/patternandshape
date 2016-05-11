@@ -2,6 +2,18 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
+@-webkit-keyframes wiggle {
+  0% {
+  -webkit-transform:rotate(6deg);
+  }
+  50% {
+  -webkit-transform:rotate(-6deg);
+  }
+  100% {
+  -webkit-transform:rotate(6deg);
+  }
+}
+
 .main-zone {
   position: relative;
   #eye {
@@ -19,16 +31,27 @@
     position: absolute;
     top: 16em;
     right: 24em;
+    &:hover {
+      -webkit-animation: wiggle 0.5s infinite;
+    }
   }
   #record {
     position: absolute;
     top: 42em;
     right: 14em;
+    transition-duration: 7s;
+    &:hover {
+      transform: rotate(720deg);
+    }
   }
   #window {
     position: absolute;
     top: 10em;
     right: 5em;
+    transition: all .5s ease-in-out;
+    &:hover {
+      transform: scale(0.75);
+    }
   }
 }
 

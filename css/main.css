@@ -418,6 +418,13 @@ h2 {
 .linkedin {
   margin-left: 4em; }
 
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(6deg); }
+  50% {
+    -webkit-transform: rotate(-6deg); }
+  100% {
+    -webkit-transform: rotate(6deg); } }
 .main-zone {
   position: relative; }
   .main-zone #eye {
@@ -432,14 +439,22 @@ h2 {
     position: absolute;
     top: 16em;
     right: 24em; }
+    .main-zone #hand:hover {
+      -webkit-animation: wiggle 0.5s infinite; }
   .main-zone #record {
     position: absolute;
     top: 42em;
-    right: 14em; }
+    right: 14em;
+    transition-duration: 7s; }
+    .main-zone #record:hover {
+      transform: rotate(720deg); }
   .main-zone #window {
     position: absolute;
     top: 10em;
-    right: 5em; }
+    right: 5em;
+    transition: all .5s ease-in-out; }
+    .main-zone #window:hover {
+      transform: scale(0.75); }
 
 .web-wrapper:hover h2 {
   visibility: visible; }
