@@ -1,0 +1,45 @@
+///Colors
+
+$onyx: #0F0F0F;
+$gold: #E4B849;
+$cerulean-blue: #3957C2;
+$coquelicot: #FF3800;
+$blue-violet: #2C1676;
+$cornflower-blue: #6181F2;
+
+
+///Color variables
+
+$black: $onyx;
+$mustard: $gold;
+$blue: $cerulean-blue;
+$red: $coquelicot;
+$indigo: $blue-violet;
+$link-blue: $cornflower-blue;
+
+
+/// Fonts
+
+$mont-stack: 'Montserrat', sans-serif;
+
+
+
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+/// @see {mixin} respond-to
+$breakpoints: (
+  'small': (min-width: 320px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1024px),
+) !default;
