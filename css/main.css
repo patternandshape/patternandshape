@@ -430,7 +430,13 @@ h2 {
   .main-zone #eye {
     position: absolute;
     top: 6em;
-    left: 6em; }
+    left: 6em;
+    opacity: .8;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out; }
+    .main-zone #eye:hover {
+      opacity: 1; }
   .main-zone #book {
     position: absolute;
     top: 39em;
@@ -452,9 +458,29 @@ h2 {
     position: absolute;
     top: 10em;
     right: 5em;
-    transition: all .5s ease-in-out; }
+    z-index: 9999;
+    -webkit-transform-style: preserve-3d;
+    -webkit-perspective: 550px;
+    -webkit-transform-origin: 0 50%;
+    -webkit-transition: all 1s;
+    -moz-transform-style: preserve-3d;
+    -moz-perspective: 550px;
+    -moz-transform-origin: 0 50%;
+    -moz-transition: all 1s;
+    -o-transform-style: preserve-3d;
+    -o-perspective: 550px;
+    -o-transform-origin: 0 50%;
+    -o-transition: all 1s;
+    transform-style: preserve-3d;
+    perspective: 550px;
+    transform-origin: 0 50%;
+    transition: all 1s; }
     .main-zone #window:hover {
-      transform: scale(0.75); }
+      -webkit-transform: scale(0.05, 1) skew(0deg, 20deg);
+      /*use scale to change how wide it opens*/
+      -moz-transform: scale(0.05, 1) skew(0deg, 20deg);
+      -o-transform: scale(0.05, 1) skew(0deg, 20deg);
+      transform: scale(0.05, 1) skew(0deg, 20deg); }
 
 .web-wrapper:hover h2 {
   visibility: visible; }
@@ -486,12 +512,14 @@ h2 {
   color: #E4B849; }
 
 .blog-wrapper:hover h2 {
-  visibility: visible; }
+  opacity: 1; }
 .blog-wrapper h2 {
   position: relative;
-  top: 0.5em;
-  left: 51em;
-  visibility: hidden;
+  top: -3em;
+  left: 48em;
+  opacity: 0;
+  /* Completely invisible. */
+  transition: 2s ease-in;
   font-size: 1.5em;
   color: #FFF; }
 
