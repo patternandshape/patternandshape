@@ -5,11 +5,15 @@
 .navbar {
   display: flex;
   align-items:baseline;
-  justify-content: space-between;
   border-bottom: 2px solid $white;
-  margin-top: 1.8em;
+  margin-top: 1.2em;
+  h1 {
+    flex: 3;
+  }
 }
 
-.social-icons {
-  justify-content: flex-end;
+.github,
+.mail,
+.linkedin {
+  margin-left: 4em;
 }

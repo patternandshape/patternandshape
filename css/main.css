@@ -356,8 +356,12 @@ th {
 html {
   box-sizing: border-box; }
 
-*, *::before, *::after {
-  box-sizing: inherit; }
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 body {
   background: #0F0F0F;
@@ -384,17 +388,43 @@ body {
  */
 h1 {
   font-family: "Montserrat Light", sans-serif;
-  font-size: 1.75em;
-  letter-spacing: 0.15em; }
+  font-size: 1.6em;
+  letter-spacing: 0.14em; }
 
 .navbar {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
   border-bottom: 2px solid #FFF;
-  margin-top: 1.8em; }
+  margin-top: 1.2em; }
+  .navbar h1 {
+    flex: 3; }
 
-.social-icons {
-  justify-content: flex-end; }
+.github,
+.mail,
+.linkedin {
+  margin-left: 4em; }
+
+.main-zone {
+  position: relative; }
+  .main-zone #eye {
+    position: absolute;
+    top: 6em;
+    left: 6em; }
+  .main-zone #book {
+    position: absolute;
+    top: 39em;
+    left: 12em; }
+  .main-zone #hand {
+    position: absolute;
+    top: 16em;
+    right: 24em; }
+  .main-zone #record {
+    position: absolute;
+    top: 42em;
+    right: 14em; }
+  .main-zone #window {
+    position: absolute;
+    top: 10em;
+    right: 5em; }
 
 /*# sourceMappingURL=main.css.map */

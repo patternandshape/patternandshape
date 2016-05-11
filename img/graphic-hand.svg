@@ -9,6 +9,11 @@
             <feOffset dx="7" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feColorMatrix values="0 0 0 0 0.223529412   0 0 0 0 0.341176471   0 0 0 0 0.760784314  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
+        <rect id="path-3" x="22.0710336" y="14.1347949" width="94.8316686" height="128.349674"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="7" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0539282172   0 0 0 0 0.0973211345   0 0 0 0 0.496731505  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-Main" transform="translate(-759.000000, -338.000000)">
@@ -18,6 +23,10 @@
                     <g id="Rectangle-4" transform="translate(69.486868, 78.309632) rotate(-23.000000) translate(-69.486868, -78.309632) ">
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                         <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Rectangle-4-Copy" transform="translate(69.486868, 78.309632) rotate(-23.000000) translate(-69.486868, -78.309632) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
                     </g>
                     <rect id="Rectangle-1" fill="#FF3800" x="70.0900289" y="93.0187157" width="21.5348694" height="21.4658654"></rect>
                     <polyline id="Polygon-1" fill="#E4B849" points="97.7777182 60.8199176 79.3192587 71.5528503 79.3192587 50.0869849 97.7777182 60.8199176"></polyline>

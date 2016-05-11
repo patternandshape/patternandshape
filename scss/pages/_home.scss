@@ -1,3 +1,32 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.main-zone {
+  position: relative;
+  #eye {
+    position: absolute;
+    top: 6em;
+    left: 6em;
+  }
+  #book {
+    position: absolute;
+    top: 39em;
+    left: 12em;
+  }
+  #hand {
+    position: absolute;
+    top: 16em;
+    right: 24em;
+  }
+  #record {
+    position: absolute;
+    top: 42em;
+    right: 14em;
+  }
+  #window {
+    position: absolute;
+    top: 10em;
+    right: 5em;
+  }
+}

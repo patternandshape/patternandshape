@@ -13,7 +13,7 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-Main" transform="translate(-1219.000000, -246.000000)">
-            <g id="Blog" transform="translate(1219.000000, 246.000000)">
+            <g id="Blog" style="mix-blend-mode: luminosity;" transform="translate(1219.000000, 246.000000)">
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
