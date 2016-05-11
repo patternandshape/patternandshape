@@ -15,9 +15,10 @@ html {
 }
 
 body {
-  background: $onyx;
+  background: $black;
   font-family: $mont-light-stack;
   color: $white;
+  overflow-x: hidden;
 }
 
 .container {
@@ -26,4 +27,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+  &:hover {
+    text-decoration: none;
+    color: $mustard;
+  }
 }

@@ -2,8 +2,15 @@
  * Basic typography style for copy text
  */
 
-h1 {
+h1, h2 {
   font-family: $mont-light-stack;
   font-size: 1.6em;
   letter-spacing: 0.14em;
+}
+
+h2 {
+  color: $white;
+  font-family: $mont-reg-stack;
+  padding-bottom: 0.2em;
+  font-size: 3em;
 }

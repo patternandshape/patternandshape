@@ -366,7 +366,8 @@ html {
 body {
   background: #0F0F0F;
   font-family: "Montserrat Light", sans-serif;
-  color: #FFF; }
+  color: #FFF;
+  overflow-x: hidden; }
 
 .container {
   width: 90%;
@@ -374,6 +375,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+
+a {
+  text-decoration: none;
+  color: #FFF; }
+  a:hover {
+    text-decoration: none;
+    color: #E4B849; }
 
 @font-face {
   font-family: 'Montserrat Light';
@@ -386,10 +394,16 @@ body {
 /**
  * Basic typography style for copy text
  */
-h1 {
+h1, h2 {
   font-family: "Montserrat Light", sans-serif;
   font-size: 1.6em;
   letter-spacing: 0.14em; }
+
+h2 {
+  color: #FFF;
+  font-family: "Montserrat Regular", sans-serif;
+  padding-bottom: 0.2em;
+  font-size: 3em; }
 
 .navbar {
   display: flex;
@@ -426,5 +440,44 @@ h1 {
     position: absolute;
     top: 10em;
     right: 5em; }
+
+.web-wrapper:hover h2 {
+  visibility: visible; }
+.web-wrapper h2 {
+  position: relative;
+  top: 7em;
+  left: 7.5em;
+  visibility: hidden;
+  color: #3957C2; }
+
+.print-wrapper:hover h2 {
+  visibility: visible; }
+.print-wrapper h2 {
+  position: relative;
+  transform: rotate(-53deg);
+  top: -1.5em;
+  left: 11.50em;
+  visibility: hidden;
+  color: #FF3800; }
+
+.mix-wrapper:hover h2 {
+  visibility: visible; }
+.mix-wrapper h2 {
+  position: relative;
+  top: 18.5em;
+  left: 46em;
+  visibility: hidden;
+  font-size: 1.5em;
+  color: #E4B849; }
+
+.blog-wrapper:hover h2 {
+  visibility: visible; }
+.blog-wrapper h2 {
+  position: relative;
+  top: 0.5em;
+  left: 51em;
+  visibility: hidden;
+  font-size: 1.5em;
+  color: #FFF; }
 
 /*# sourceMappingURL=main.css.map */

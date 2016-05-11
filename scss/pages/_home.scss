@@ -8,6 +8,7 @@
     position: absolute;
     top: 6em;
     left: 6em;
+
   }
   #book {
     position: absolute;
@@ -28,5 +29,60 @@
     position: absolute;
     top: 10em;
     right: 5em;
+  }
+}
+
+.web-wrapper {
+  &:hover h2 {
+    visibility: visible;
+  }
+  h2 {
+    position: relative;
+    top: 7em;
+    left:7.5em;
+    visibility: hidden;
+    color: $blue;
+  }
+}
+
+.print-wrapper {
+  &:hover h2 {
+    visibility: visible;
+  }
+  h2 {
+    position: relative;
+    transform: rotate(-53deg);
+    top: -1.5em;
+    left: 11.50em;
+    visibility: hidden;
+    color: $red;
+  }
+}
+
+.mix-wrapper {
+  &:hover h2 {
+    visibility: visible;
+  }
+  h2 {
+    position: relative;
+    top: 18.5em;
+    left: 46em;
+    visibility: hidden;
+    font-size: 1.5em;
+    color: $mustard;
+  }
+}
+
+.blog-wrapper {
+  &:hover h2 {
+    visibility: visible;
+  }
+  h2 {
+    position: relative;
+    top:0.5em;
+    left: 51em;
+    visibility: hidden;
+    font-size: 1.5em;
+    color: $white;
   }
 }
