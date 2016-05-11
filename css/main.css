@@ -367,7 +367,7 @@ body {
   background: #0F0F0F;
   font-family: "Montserrat Light", sans-serif;
   color: #FFF;
-  overflow-x: hidden; }
+  overflow: hidden; }
 
 .container {
   width: 90%;
@@ -491,12 +491,23 @@ h2 {
   visibility: hidden;
   color: #3957C2; }
 
+.cv-wrapper:hover h2 {
+  visibility: visible; }
+.cv-wrapper h2 {
+  position: relative;
+  top: 12.33em;
+  left: 5.33em;
+  letter-spacing: .8em;
+  font-size: 2.5em;
+  visibility: hidden;
+  color: #0F0F0F; }
+
 .print-wrapper:hover h2 {
   visibility: visible; }
 .print-wrapper h2 {
   position: relative;
   transform: rotate(-53deg);
-  top: -1.5em;
+  top: -3.5em;
   left: 11.50em;
   visibility: hidden;
   color: #FF3800; }
@@ -505,7 +516,7 @@ h2 {
   visibility: visible; }
 .mix-wrapper h2 {
   position: relative;
-  top: 18.5em;
+  top: 14.5em;
   left: 46em;
   visibility: hidden;
   font-size: 1.5em;
@@ -515,10 +526,9 @@ h2 {
   opacity: 1; }
 .blog-wrapper h2 {
   position: relative;
-  top: -3em;
+  top: -7em;
   left: 48em;
   opacity: 0;
-  /* Completely invisible. */
   transition: 2s ease-in;
   font-size: 1.5em;
   color: #FFF; }

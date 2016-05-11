@@ -107,6 +107,21 @@
   }
 }
 
+.cv-wrapper {
+  &:hover h2 {
+    visibility: visible;
+  }
+  h2 {
+    position: relative;
+    top: 12.33em;
+    left: 5.33em;
+    letter-spacing: .8em;
+    font-size: 2.5em;
+    visibility: hidden;
+    color: $black;
+  }
+}
+
 .print-wrapper {
   &:hover h2 {
     visibility: visible;
@@ -114,7 +129,7 @@
   h2 {
     position: relative;
     transform: rotate(-53deg);
-    top: -1.5em;
+    top: -3.5em;
     left: 11.50em;
     visibility: hidden;
     color: $red;
@@ -127,7 +142,7 @@
   }
   h2 {
     position: relative;
-    top: 18.5em;
+    top: 14.5em;
     left: 46em;
     visibility: hidden;
     font-size: 1.5em;
@@ -140,11 +155,10 @@
     opacity:1;
   }
   h2 {
-    // -webkit-transition: all 2s;
     position: relative;
-    top: -3em;
+    top: -7em;
     left: 48em;
-    opacity:0; /* Completely invisible. */
+    opacity:0;
     transition:2s ease-in;
     font-size: 1.5em;
     color: $white;
