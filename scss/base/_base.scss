@@ -9,3 +9,17 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background: $onyx;
+  font-family: $mont-light-stack;
+  color: $white;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

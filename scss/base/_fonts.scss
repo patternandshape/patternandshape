@@ -1,3 +1,15 @@
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('../fonts/Montserrat/Montserrat-Light.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../fonts/Montserrat/Montserrat-Regular.otf');
+    font-weight: normal;
+}
