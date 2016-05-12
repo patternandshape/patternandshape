@@ -383,6 +383,16 @@ a {
     text-decoration: none;
     color: #E4B849; }
 
+.main-zone {
+  margin-top: 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+@font-face {
+  font-family: 'Montserrat Ultra Light';
+  src: url("../fonts/Montserrat/Montserrat-UltraLight.otf");
+  font-weight: normal; }
 @font-face {
   font-family: 'Montserrat Light';
   src: url("../fonts/Montserrat/Montserrat-Light.otf");
@@ -417,6 +427,39 @@ h2 {
 .mail,
 .linkedin {
   margin-left: 4em; }
+
+.gallery-wrapper {
+  max-width: 80%;
+  display: flex;
+  justify-content: center; }
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap; }
+  .project-gallery img {
+    max-width: 185px;
+    max-height: 185px;
+    border: 3px solid #0F0F0F;
+    box-shadow: 5px 5px #FFF;
+    margin: 0 1.5em 3em; }
+
+.sidebar {
+  margin-top: -1em; }
+  .sidebar a {
+    text-decoration: none; }
+    .sidebar a:hover {
+      text-decoration: none;
+      color: #6181F2; }
+  .sidebar ul {
+    padding: 0;
+    list-style-type: none; }
+    .sidebar ul li {
+      color: #FFF;
+      list-style: none;
+      font-family: "Montserrat Ultra Light", sans-serif;
+      letter-spacing: 0.1em;
+      margin-bottom: 2em;
+      font-size: .9em; }
 
 @-webkit-keyframes wiggle {
   0% {

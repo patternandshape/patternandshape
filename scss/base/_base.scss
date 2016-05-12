@@ -37,3 +37,11 @@ a {
     color: $mustard;
   }
 }
+
+
+.main-zone {
+  margin-top: 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

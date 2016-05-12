@@ -1,0 +1,22 @@
+.sidebar {
+  margin-top: -1em;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color: $link-blue;
+    }
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+    li {
+    color: $white;
+    list-style: none;
+    font-family: $mont-lightest-stack;
+    letter-spacing: 0.1em;
+    margin-bottom: 2em;
+    font-size: .9em;
+    }
+  }
+}
