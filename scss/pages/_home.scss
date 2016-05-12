@@ -85,16 +85,15 @@
   max-width: 500px;
   &:hover h2 {
     visibility: visible;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
   }
   h2 {
     position: relative;
     top: 3.5em;
-    left:5em;
+    left:5.1em;
     visibility: hidden;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
-    // color: $blue;
   }
 }
 
@@ -120,8 +119,8 @@
   h2 {
     position: relative;
     transform: rotate(-53deg);
-    top: -3.5em;
-    left: 11.50em;
+    top: -4.75em;
+    left: 14.2em;
     visibility: hidden;
     color: $red;
   }
@@ -134,7 +133,7 @@
   h2 {
     position: relative;
     top: 14.5em;
-    left: 46em;
+    left: 53.5em;
     visibility: hidden;
     font-size: 1.5em;
     color: $mustard;
@@ -148,7 +147,7 @@
   h2 {
     position: relative;
     top: -7em;
-    left: 48em;
+    left: 55.2em;
     opacity:0;
     transition:2s ease-in;
     font-size: 1.5em;
