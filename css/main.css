@@ -442,7 +442,14 @@ h2 {
     max-height: 190px;
     border: 3px solid #0F0F0F;
     box-shadow: 5px 5px #FFF;
-    margin: 0 1.5em 3em; }
+    margin: 0 1.5em 3em;
+    transition: 0.2s ease-in-out; }
+    .project-gallery img:hover {
+      -ms-transform: scale(1.1, 1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1, 1.1);
+      /* Safari */
+      transform: scale(1.1, 1.1); }
 
 .sidebar {
   margin-top: -1em; }
@@ -586,7 +593,7 @@ h2 {
   .blog-wrapper h2 {
     position: absolute;
     top: 1.25em;
-    left: 0.25em;
+    left: 0.35em;
     opacity: 0;
     transition: 2s ease-in;
     font-size: 1.5em;
