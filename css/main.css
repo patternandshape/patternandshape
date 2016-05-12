@@ -527,7 +527,7 @@ h2 {
   .web-wrapper h2 {
     position: absolute;
     top: 1.5em;
-    left: 3.15em;
+    left: 3.1em;
     visibility: hidden; }
 
 .cv-wrapper {
@@ -556,8 +556,8 @@ h2 {
   .print-wrapper h2 {
     position: absolute;
     transform: rotate(-53deg);
-    top: 4.5em;
-    left: 3em;
+    top: 4.7em;
+    left: 2.9em;
     visibility: hidden;
     color: #FF3800; }
 
