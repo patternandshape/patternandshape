@@ -16,8 +16,8 @@
     margin: 0 1.5em 3em;
     transition: 0.2s ease-in-out;
     &:hover {
-      -ms-transform: scale(1.10,1.10); /* IE 9 */
-      -webkit-transform: scale(1.10,1.10); /* Safari */
+      -ms-transform: scale(1.10,1.10);
+      -webkit-transform: scale(1.10,1.10);
       transform: scale(1.10,1.10);
     }
   }
