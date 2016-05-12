@@ -383,8 +383,8 @@ a {
     text-decoration: none;
     color: #E4B849; }
 
-.main-zone {
-  margin-top: 8em;
+.main-gallery-zone {
+  margin-top: 6em;
   display: flex;
   justify-content: space-between;
   align-items: flex-start; }
@@ -429,16 +429,17 @@ h2 {
   margin-left: 4em; }
 
 .gallery-wrapper {
-  max-width: 80%;
+  max-width: 78%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-self: center; }
 
 .project-gallery {
   display: flex;
   flex-wrap: wrap; }
   .project-gallery img {
-    max-width: 185px;
-    max-height: 185px;
+    max-width: 190px;
+    max-height: 190px;
     border: 3px solid #0F0F0F;
     box-shadow: 5px 5px #FFF;
     margin: 0 1.5em 3em; }
@@ -459,7 +460,7 @@ h2 {
       font-family: "Montserrat Ultra Light", sans-serif;
       letter-spacing: 0.1em;
       margin-bottom: 2em;
-      font-size: .9em; }
+      font-size: 1 em; }
 
 @-webkit-keyframes wiggle {
   0% {
@@ -520,7 +521,6 @@ h2 {
     transition: all 1s; }
     .main-zone #window:hover {
       -webkit-transform: scale(0.05, 1) skew(0deg, 20deg);
-      /*use scale to change how wide it opens*/
       -moz-transform: scale(0.05, 1) skew(0deg, 20deg);
       -o-transform: scale(0.05, 1) skew(0deg, 20deg);
       transform: scale(0.05, 1) skew(0deg, 20deg); }
@@ -554,8 +554,8 @@ h2 {
 .print-wrapper h2 {
   position: relative;
   transform: rotate(-53deg);
-  top: -4.75em;
-  left: 14.2em;
+  top: -3.75em;
+  left: 12.2em;
   visibility: hidden;
   color: #FF3800; }
 
@@ -564,7 +564,7 @@ h2 {
 .mix-wrapper h2 {
   position: relative;
   top: 14.5em;
-  left: 53.5em;
+  left: 47.5em;
   visibility: hidden;
   font-size: 1.5em;
   color: #E4B849; }
@@ -574,7 +574,7 @@ h2 {
 .blog-wrapper h2 {
   position: relative;
   top: -7em;
-  left: 55.2em;
+  left: 49.25em;
   opacity: 0;
   transition: 2s ease-in;
   font-size: 1.5em;

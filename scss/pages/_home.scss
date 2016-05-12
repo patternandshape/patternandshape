@@ -73,10 +73,10 @@
     transform-origin: 0 50%;
     transition: all 1s;
     &:hover {
-      -webkit-transform: scale(0.05,1) skew(0deg,20deg); /*use scale to change how wide it opens*/
-    -moz-transform: scale(0.05,1) skew(0deg,20deg);
-    -o-transform: scale(0.05,1) skew(0deg,20deg);
-    transform: scale(0.05,1) skew(0deg,20deg);
+      -webkit-transform: scale(0.05,1) skew(0deg,20deg);
+      -moz-transform: scale(0.05,1) skew(0deg,20deg);
+      -o-transform: scale(0.05,1) skew(0deg,20deg);
+      transform: scale(0.05,1) skew(0deg,20deg);
     }
   }
 }
@@ -119,8 +119,8 @@
   h2 {
     position: relative;
     transform: rotate(-53deg);
-    top: -4.75em;
-    left: 14.2em;
+    top: -3.75em;
+    left: 12.2em;
     visibility: hidden;
     color: $red;
   }
@@ -133,7 +133,7 @@
   h2 {
     position: relative;
     top: 14.5em;
-    left: 53.5em;
+    left: 47.5em;
     visibility: hidden;
     font-size: 1.5em;
     color: $mustard;
@@ -147,7 +147,7 @@
   h2 {
     position: relative;
     top: -7em;
-    left: 55.2em;
+    left: 49.25em;
     opacity:0;
     transition:2s ease-in;
     font-size: 1.5em;
