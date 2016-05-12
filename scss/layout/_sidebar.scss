@@ -1,5 +1,12 @@
 .sidebar {
   margin-top: -1em;
+  .design-link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color: $red;
+    }
+  }
   a {
     text-decoration: none;
     &:hover {

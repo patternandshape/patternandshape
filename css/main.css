@@ -446,6 +446,11 @@ h2 {
 
 .sidebar {
   margin-top: -1em; }
+  .sidebar .design-link {
+    text-decoration: none; }
+    .sidebar .design-link:hover {
+      text-decoration: none;
+      color: #FF3800; }
   .sidebar a {
     text-decoration: none; }
     .sidebar a:hover {
