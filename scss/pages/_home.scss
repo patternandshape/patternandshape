@@ -17,9 +17,6 @@
 .main-zone {
   position: relative;
   #eye {
-    position: absolute;
-    top: 6em;
-    left: 6em;
     opacity: 1;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
@@ -28,24 +25,12 @@
       opacity: 0.2;
     }
   }
-
-  #book {
-    position: absolute;
-    top: 39em;
-    left: 12em;
-  }
   #hand {
-    position: absolute;
-    top: 16em;
-    right: 24em;
     &:hover {
       -webkit-animation: wiggle 0.5s infinite;
     }
   }
   #record {
-    position: absolute;
-    top: 42em;
-    right: 14em;
     transition-duration: 7s;
     &:hover {
       transform: rotate(720deg);
@@ -53,8 +38,6 @@
   }
   #window {
     position: absolute;
-    top: 10em;
-    right: 5em;
     z-index: 9999;
     -webkit-transform-style: preserve-3d;
     -webkit-perspective: 550px;
@@ -83,6 +66,9 @@
 
 .web-wrapper {
   max-width: 500px;
+  position: absolute;
+  top: 6em;
+  left: 6em;
   &:hover h2 {
     visibility: visible;
     transition: opacity .25s ease-in-out;
@@ -90,21 +76,25 @@
     -webkit-transition: opacity .25s ease-in-out;
   }
   h2 {
-    position: relative;
-    top: 3.5em;
-    left:5.1em;
+    position: absolute;
+    top: 1.5em;
+    left: 3.15em;
     visibility: hidden;
   }
 }
 
 .cv-wrapper {
+  max-width: 135px;
+  position: absolute;
+  top: 39em;
+  left: 12em;
   &:hover h2 {
     visibility: visible;
   }
   h2 {
-    position: relative;
-    top: 12.33em;
-    left: 5.33em;
+    position: absolute;
+    top: -0.5em;
+    left: 0.5em;
     letter-spacing: .8em;
     font-size: 2.5em;
     visibility: hidden;
@@ -113,27 +103,35 @@
 }
 
 .print-wrapper {
+  max-width: 340px;
+  position: absolute;
+  top: 16em;
+  right: 27.5em;
   &:hover h2 {
     visibility: visible;
   }
   h2 {
-    position: relative;
+    position: absolute;
     transform: rotate(-53deg);
-    top: -3.75em;
-    left: 12.2em;
+    top: 4.5em;
+    left: 3em;
     visibility: hidden;
     color: $red;
   }
 }
 
 .mix-wrapper {
+  position: absolute;
+  max-width: 250px;
+  top: 42em;
+  right: 14em;
   &:hover h2 {
     visibility: visible;
   }
   h2 {
-    position: relative;
-    top: 14.5em;
-    left: 47.5em;
+    position: absolute;
+    top: 0.25em;
+    left: 4.25em;
     visibility: hidden;
     font-size: 1.5em;
     color: $mustard;
@@ -141,13 +139,17 @@
 }
 
 .blog-wrapper {
+  max-width: 100px;
+  position: absolute;
+  top: 10em;
+  right: 12em;
   &:hover h2 {
     opacity:1;
   }
   h2 {
-    position: relative;
-    top: -7em;
-    left: 49.25em;
+    position: absolute;
+    top: 1.25em;
+    left: 0.25em;
     opacity:0;
     transition:2s ease-in;
     font-size: 1.5em;
