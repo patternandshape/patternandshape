@@ -431,12 +431,12 @@ h2 {
     position: absolute;
     top: 6em;
     left: 6em;
-    opacity: .8;
+    opacity: 1;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out; }
     .main-zone #eye:hover {
-      opacity: 1; }
+      opacity: 0.2; }
   .main-zone #book {
     position: absolute;
     top: 39em;
@@ -482,14 +482,18 @@ h2 {
       -o-transform: scale(0.05, 1) skew(0deg, 20deg);
       transform: scale(0.05, 1) skew(0deg, 20deg); }
 
-.web-wrapper:hover h2 {
-  visibility: visible; }
-.web-wrapper h2 {
-  position: relative;
-  top: 7em;
-  left: 7.5em;
-  visibility: hidden;
-  color: #3957C2; }
+.web-wrapper {
+  max-width: 500px; }
+  .web-wrapper:hover h2 {
+    visibility: visible; }
+  .web-wrapper h2 {
+    position: relative;
+    top: 3.5em;
+    left: 5em;
+    visibility: hidden;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out; }
 
 .cv-wrapper:hover h2 {
   visibility: visible; }

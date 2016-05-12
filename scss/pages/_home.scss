@@ -14,31 +14,18 @@
   }
 }
 
-// @keyframes blink-animation {
-//   to {
-//     visibility: hidden;
-//   }
-// }
-// @-webkit-keyframes blink-animation {
-//   to {
-//     visibility: hidden;
-//   }
-// }
-
 .main-zone {
   position: relative;
   #eye {
     position: absolute;
     top: 6em;
     left: 6em;
-    // animation: blink-animation 4s steps(6, start) infinite;
-    // -webkit-animation: blink-animation 4s steps(6, start) infinite;
-    opacity: .8;
+    opacity: 1;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
     &:hover {
-      opacity: 1;
+      opacity: 0.2;
     }
   }
 
@@ -95,15 +82,19 @@
 }
 
 .web-wrapper {
+  max-width: 500px;
   &:hover h2 {
     visibility: visible;
   }
   h2 {
     position: relative;
-    top: 7em;
-    left:7.5em;
+    top: 3.5em;
+    left:5em;
     visibility: hidden;
-    color: $blue;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    // color: $blue;
   }
 }
 
