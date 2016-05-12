@@ -449,6 +449,9 @@ h2 {
       -webkit-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); }
 
+.wonky {
+  letter-spacing: .2em; }
+
 .sidebar {
   margin-top: -1em; }
   .sidebar .design-link {
