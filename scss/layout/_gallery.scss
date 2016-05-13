@@ -27,5 +27,17 @@
   letter-spacing: .2em;
 }
 
+.main-cv-zone {
+  margin: 0 auto;
+  margin-top: 12em;
+  h1 {
+    font-size: 6em;
+    color: $blue;
+  }
+}
 // #bank {display:none;}
 // #btn-bk {display:none;}
+
+.vc-mobile {
+  width: 600px;
+}

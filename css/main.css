@@ -452,6 +452,16 @@ h2 {
 .wonky {
   letter-spacing: .2em; }
 
+.main-cv-zone {
+  margin: 0 auto;
+  margin-top: 12em; }
+  .main-cv-zone h1 {
+    font-size: 6em;
+    color: #3957C2; }
+
+.vc-mobile {
+  width: 600px; }
+
 .sidebar {
   margin-top: -1em; }
   .sidebar .design-link {
