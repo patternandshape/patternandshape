@@ -2,15 +2,37 @@
  * Basic typography style for copy text
  */
 
-h1, h2 {
+h1, h2, {
   font-family: $mont-light-stack;
   font-size: 1.6em;
   letter-spacing: 0.14em;
 }
 
 h2 {
-  color: $white;
+  // color: $white;
   font-family: $mont-reg-stack;
   padding-bottom: 0.2em;
   font-size: 3em;
 }
+
+h3 {
+  font-family: $mont-lightest-stack;
+  letter-spacing: 0.2em;
+  font-size: 1.1em;
+  color: $link-blue;
+}
+
+// .description {
+//   width: 80%;
+//   font-family: $mont-lightest-stack;
+//   font-size: .9em;
+//   line-height: 2em;
+//   letter-spacing: 0.1em;
+//   margin-bottom: 5em;
+// }
+//
+// .title {
+//   font-family: $mont-reg-stack;
+//   font-size: 1.6em;
+//   letter-spacing: 0.14em;
+// }

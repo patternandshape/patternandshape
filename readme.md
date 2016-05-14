@@ -1,6 +1,6 @@
 # Pattern &amp; Shape
 
-May 13, 2016
+May 16, 2016
 
 ##### By Molly Curtin
 
@@ -12,8 +12,9 @@ Pattern &amp; Shape is the online portfolio of Molly Curtin.
 ### Technologies Used
 
 * SCSS
-* HTML
 * jQuery
+* HTML
+* Font Awesome
 * Git
 
 Pattern &amp; Shape can also be viewed at http://patternandshape.github.io/portfolio
