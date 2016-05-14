@@ -1,0 +1,39 @@
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.social-icons {
+	display: flex;
+	justify-content: space-between;
+	width: 12em;
+  .fa-github {
+    font-size: 1.4em;
+    &:hover {
+      color: $mustard;
+    }
+  }
+  .fa-linkedin-square {
+    font-size: 1.4em;
+    &:hover {
+      color: $mustard;
+    }
+  }
+	.mail {
+	  &:hover {
+	     animation: bounce 1s;
+	  }
+	}
+}

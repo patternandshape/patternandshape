@@ -37,7 +37,17 @@
 }
 // #bank {display:none;}
 // #btn-bk {display:none;}
-   
-.vc-mobile {
-  width: 600px;
+
+.visible-cloaks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:stretch;
+  h1 {
+    font-size: 2em;
+  }
+  img {
+    max-height: 30em;
+    margin-right: 7em;
+  }
 }

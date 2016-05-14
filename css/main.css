@@ -434,11 +434,6 @@ h2 {
   .navbar h1 {
     flex: 3; }
 
-.github,
-.mail,
-.linkedin {
-  margin-left: 4em; }
-
 .gallery-wrapper {
   max-width: 78%;
   display: flex;
@@ -470,8 +465,16 @@ h2 {
     font-size: 6em;
     color: #3957C2; }
 
-.vc-mobile {
-  width: 600px; }
+.visible-cloaks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; }
+  .visible-cloaks h1 {
+    font-size: 2em; }
+  .visible-cloaks img {
+    max-height: 30em;
+    margin-right: 7em; }
 
 .sidebar {
   margin-top: -1em; }
@@ -495,6 +498,31 @@ h2 {
       letter-spacing: 0.1em;
       margin-bottom: 2em;
       font-size: 1 em; }
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 12em; }
+  .social-icons .fa-github {
+    font-size: 1.4em; }
+    .social-icons .fa-github:hover {
+      color: #E4B849; }
+  .social-icons .fa-linkedin-square {
+    font-size: 1.4em; }
+    .social-icons .fa-linkedin-square:hover {
+      color: #E4B849; }
+  .social-icons .mail:hover {
+    animation: bounce 1s; }
 
 @-webkit-keyframes wiggle {
   0% {
