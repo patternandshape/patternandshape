@@ -38,12 +38,9 @@
 
 .visible-cloaks {
   display: none;
-  margin-left: -6.5em;
+  margin-left: -6em;
   margin-top: 0.25em;
   width: 83%;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
   .title-link {
     position: relative;
   }
@@ -55,7 +52,7 @@
   }
   .fa-long-arrow-right {
     position: absolute;
-    top: 0.35em;
+    top: -0.18em;
     margin-left: 0.4em;
   	font-size: 2em;
   	&:hover {
@@ -71,12 +68,12 @@
   .middle-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 6em;
+    margin-bottom: 5em;
   }
   .bottom-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 7em;
+    margin-bottom: 9em;
     img {
       margin: 0 1em;
       width: 50%;

@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
   $(".vc").click(function() {
-    $(".project-gallery").fadeOut();
-    
-    $.when($(".project-gallery").fadeOut(1000)).then(function() {
-      $(".visible-cloaks").fadeIn(1000);
+    $(".project-gallery").fadeOut("500");
+
+    $.when($(".project-gallery").fadeOut("500")).then(function() {
+      $(".visible-cloaks").fadeIn("500");
     });
   });
   event.preventDefault();

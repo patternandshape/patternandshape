@@ -472,7 +472,7 @@ h3 {
 
 .visible-cloaks {
   display: none;
-  margin-left: -6.5em;
+  margin-left: -6em;
   margin-top: 0.25em;
   width: 83%; }
   .visible-cloaks .title-link {
@@ -483,7 +483,7 @@ h3 {
     max-height: 30em; }
   .visible-cloaks .fa-long-arrow-right {
     position: absolute;
-    top: 0.35em;
+    top: -0.18em;
     margin-left: 0.4em;
     font-size: 2em; }
     .visible-cloaks .fa-long-arrow-right:hover {
@@ -496,11 +496,11 @@ h3 {
   .visible-cloaks .middle-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 6em; }
+    margin-bottom: 5em; }
   .visible-cloaks .bottom-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 7em; }
+    margin-bottom: 9em; }
     .visible-cloaks .bottom-photo img {
       margin: 0 1em;
       width: 50%;
@@ -520,16 +520,6 @@ h3 {
 
 .sidebar {
   margin-top: -1em; }
-  .sidebar .design-link {
-    text-decoration: none; }
-    .sidebar .design-link:hover {
-      text-decoration: none;
-      color: #FF3800; }
-  .sidebar a {
-    text-decoration: none; }
-    .sidebar a:hover {
-      text-decoration: none;
-      color: #6181F2; }
   .sidebar ul {
     padding: 0;
     list-style-type: none; }
@@ -540,6 +530,12 @@ h3 {
       letter-spacing: 0.1em;
       margin-bottom: 2em;
       font-size: 1 em; }
+      .sidebar ul li:hover {
+        color: #6181F2;
+        cursor: pointer; }
+  .sidebar .print-list li:hover {
+    color: #FF3800;
+    cursor: pointer; }
 
 @keyframes bounce {
   0%, 20%, 60%, 100% {
@@ -621,6 +617,7 @@ h3 {
   left: 6em; }
   .web-wrapper:hover h2 {
     visibility: visible;
+    color: #FFF;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out; }

@@ -71,6 +71,7 @@
   left: 6em;
   &:hover h2 {
     visibility: visible;
+    color: $white;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
