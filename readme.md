@@ -13,10 +13,8 @@ Pattern &amp; Shape is the online portfolio of Molly Curtin.
 
 * SCSS
 * HTML
-* Sketch App
-* InVision
+* jQuery
 * Git
-* Google Fonts
 
 Pattern &amp; Shape can also be viewed at http://patternandshape.github.io/portfolio
 

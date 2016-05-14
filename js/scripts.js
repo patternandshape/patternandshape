@@ -1,3 +1,8 @@
+// $(document).ready(function(){
+//
+// });
+
+
 // changes page layout on form submission and ideally fades the form out as well
 
  // $.when($(".formBox").fadeOut(1000)).then(function() {
@@ -6,7 +11,7 @@
  //
  // });
 
- // $('#btn').click(function(e){    
+ // $('#btn').click(function(e){
  //     $('#fancy, #btn').fadeOut('slow', function(){
  //         $('#bank, #btn-bk').fadeIn('slow');
  //     });

@@ -363,11 +363,22 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+::-webkit-scrollbar {
+  width: 15px; }
+
+::-webkit-scrollbar-track-piece {
+  background-color: #0F0F0F; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #3957C2; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #FF3800; }
+
 body {
   background: #0F0F0F;
   font-family: "Montserrat Light", sans-serif;
-  color: #FFF;
-  overflow: hidden; }
+  color: #FFF; }
 
 .container {
   width: 90%;
