@@ -471,12 +471,10 @@ h3 {
     color: #3957C2; }
 
 .visible-cloaks {
+  display: none;
   margin-left: -6.5em;
   margin-top: 0.25em;
-  width: 83%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  width: 83%; }
   .visible-cloaks .title-link {
     position: relative; }
   .visible-cloaks h1 {
