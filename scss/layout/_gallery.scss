@@ -35,15 +35,12 @@
     color: $blue;
   }
 }
-// #bank {display:none;}
-// #btn-bk {display:none;}
 
 .visible-cloaks {
-  margin-left: -7.75em;
+  // display: none;
+  margin-left: -6.5em;
   margin-top: 0.25em;
-  // align-content: flex-start;
   width: 83%;
-  // margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,7 +52,6 @@
   }
   img {
     max-height: 30em;
-    // margin-right: 7em;
   }
   .fa-long-arrow-right {
     position: absolute;
@@ -71,7 +67,6 @@
     justify-content: flex-start;;
     margin-bottom: 2em;
     justify-content: space-between;
-    // margin: 0 auto 2em auto;
   }
   .middle-photo {
     display: flex;
@@ -81,7 +76,7 @@
   .bottom-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 5em;
+    margin-bottom: 7em;
     img {
       margin: 0 1em;
       width: 50%;

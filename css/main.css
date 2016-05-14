@@ -471,7 +471,7 @@ h3 {
     color: #3957C2; }
 
 .visible-cloaks {
-  margin-left: -7.75em;
+  margin-left: -6.5em;
   margin-top: 0.25em;
   width: 83%;
   display: flex;
@@ -502,7 +502,7 @@ h3 {
   .visible-cloaks .bottom-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 5em; }
+    margin-bottom: 7em; }
     .visible-cloaks .bottom-photo img {
       margin: 0 1em;
       width: 50%;
@@ -556,6 +556,7 @@ h3 {
 .social-icons {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   width: 12em; }
   .social-icons .fa-github {
     font-size: 1.4em; }
