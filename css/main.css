@@ -471,6 +471,7 @@ h3 {
     color: #3957C2; }
 
 .visible-cloaks, .boom-bap, .eames-office {
+  display: none;
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%; }
@@ -504,7 +505,7 @@ h3 {
       height: 50%; }
   .visible-cloaks .description, .boom-bap .description, .eames-office .description {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     font-family: "Montserrat Ultra Light", sans-serif;
     font-size: .9em;
     line-height: 2em;
@@ -519,7 +520,7 @@ h3 {
   margin-bottom: 7em; }
 
 .eames-office img {
-  max-height: 34em; }
+  height: 34em; }
 .eames-office .bottom-photo {
   justify-content: space-around;
   align-items: center; }

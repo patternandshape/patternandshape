@@ -33,7 +33,7 @@
 }
 
 .visible-cloaks, .boom-bap, .eames-office {
-  // display: none;
+  display: none;
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%;
@@ -75,7 +75,7 @@
   }
   .description {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     font-family: $mont-lightest-stack;
     font-size: .9em;
     line-height: 2em;
@@ -97,7 +97,7 @@
 
 .eames-office {
   img {
-    max-height: 34em;
+    height: 34em;
   }
   .bottom-photo {
     .eo-mobile {
