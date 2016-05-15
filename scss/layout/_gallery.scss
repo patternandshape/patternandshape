@@ -36,16 +36,13 @@
   }
 }
 
-.visible-cloaks {
+.visible-cloaks, .boom-bap {
   display: none;
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%;
   .title-link {
     position: relative;
-  }
-  h1 {
-    font-size: 2em;
   }
   img {
     max-height: 30em;
@@ -61,7 +58,7 @@
   }
   .top-photo {
     display: flex;
-    justify-content: flex-start;;
+    justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between;
   }
@@ -73,7 +70,7 @@
   .bottom-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 9em;
+    margin-bottom: 7em;
     img {
       margin: 0 1em;
       width: 50%;
@@ -89,10 +86,15 @@
     letter-spacing: 0.1em;
     margin-bottom: 5em;
   }
-
   .title {
     font-family: $mont-reg-stack;
     font-size: 1.6em;
     letter-spacing: 0.14em;
+  }
+}
+
+.boom-bap {
+  .description {
+    margin-bottom: 7em;
   }
 }

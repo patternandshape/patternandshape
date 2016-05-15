@@ -14,6 +14,9 @@ Pattern &amp; Shape is the online portfolio of Molly Curtin.
 * SCSS
 * jQuery
 * HTML
+* Sketch
+* Illustrator
+* Photoshop
 * Font Awesome
 * Git
 

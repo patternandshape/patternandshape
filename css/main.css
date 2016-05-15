@@ -470,42 +470,40 @@ h3 {
     font-size: 6em;
     color: #3957C2; }
 
-.visible-cloaks {
+.visible-cloaks, .boom-bap {
   display: none;
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%; }
-  .visible-cloaks .title-link {
+  .visible-cloaks .title-link, .boom-bap .title-link {
     position: relative; }
-  .visible-cloaks h1 {
-    font-size: 2em; }
-  .visible-cloaks img {
+  .visible-cloaks img, .boom-bap img {
     max-height: 30em; }
-  .visible-cloaks .fa-long-arrow-right {
+  .visible-cloaks .fa-long-arrow-right, .boom-bap .fa-long-arrow-right {
     position: absolute;
     top: -0.18em;
     margin-left: 0.4em;
     font-size: 2em; }
-    .visible-cloaks .fa-long-arrow-right:hover {
+    .visible-cloaks .fa-long-arrow-right:hover, .boom-bap .fa-long-arrow-right:hover {
       color: #E4B849; }
-  .visible-cloaks .top-photo {
+  .visible-cloaks .top-photo, .boom-bap .top-photo {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between; }
-  .visible-cloaks .middle-photo {
+  .visible-cloaks .middle-photo, .boom-bap .middle-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 5em; }
-  .visible-cloaks .bottom-photo {
+  .visible-cloaks .bottom-photo, .boom-bap .bottom-photo {
     display: flex;
     justify-content: center;
-    margin-bottom: 9em; }
-    .visible-cloaks .bottom-photo img {
+    margin-bottom: 7em; }
+    .visible-cloaks .bottom-photo img, .boom-bap .bottom-photo img {
       margin: 0 1em;
       width: 50%;
       height: 50%; }
-  .visible-cloaks .description {
+  .visible-cloaks .description, .boom-bap .description {
     display: flex;
     justify-content: space-around;
     font-family: "Montserrat Ultra Light", sans-serif;
@@ -513,10 +511,13 @@ h3 {
     line-height: 2em;
     letter-spacing: 0.1em;
     margin-bottom: 5em; }
-  .visible-cloaks .title {
+  .visible-cloaks .title, .boom-bap .title {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.14em; }
+
+.boom-bap .description {
+  margin-bottom: 7em; }
 
 .sidebar {
   margin-top: -1em; }
