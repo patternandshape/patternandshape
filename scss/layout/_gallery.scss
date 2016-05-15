@@ -23,10 +23,6 @@
   }
 }
 
-.wonky {
-  letter-spacing: .2em;
-}
-
 .main-cv-zone {
   margin: 0 auto;
   margin-top: 12em;
@@ -36,8 +32,8 @@
   }
 }
 
-.visible-cloaks, .boom-bap {
-  display: none;
+.visible-cloaks, .boom-bap, .eames-office {
+  // display: none;
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%;
@@ -96,5 +92,21 @@
 .boom-bap {
   .description {
     margin-bottom: 7em;
+  }
+}
+
+.eames-office {
+  img {
+    max-height: 34em;
+  }
+  .bottom-photo {
+    .eo-mobile {
+      max-width: 13em;
+    }
+  .eo-tablet {
+      max-width: 25em;
+  }
+  justify-content: space-around;
+  align-items: center;
   }
 }

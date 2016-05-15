@@ -431,6 +431,9 @@ h3 {
   font-size: 1.1em;
   color: #6181F2; }
 
+.wonky {
+  letter-spacing: .2em; }
+
 .navbar {
   display: flex;
   align-items: baseline;
@@ -460,9 +463,6 @@ h3 {
       -webkit-transform: scale(1.1, 1.1);
       transform: scale(1.1, 1.1); }
 
-.wonky {
-  letter-spacing: .2em; }
-
 .main-cv-zone {
   margin: 0 auto;
   margin-top: 12em; }
@@ -470,40 +470,39 @@ h3 {
     font-size: 6em;
     color: #3957C2; }
 
-.visible-cloaks, .boom-bap {
-  display: none;
+.visible-cloaks, .boom-bap, .eames-office {
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%; }
-  .visible-cloaks .title-link, .boom-bap .title-link {
+  .visible-cloaks .title-link, .boom-bap .title-link, .eames-office .title-link {
     position: relative; }
-  .visible-cloaks img, .boom-bap img {
+  .visible-cloaks img, .boom-bap img, .eames-office img {
     max-height: 30em; }
-  .visible-cloaks .fa-long-arrow-right, .boom-bap .fa-long-arrow-right {
+  .visible-cloaks .fa-long-arrow-right, .boom-bap .fa-long-arrow-right, .eames-office .fa-long-arrow-right {
     position: absolute;
     top: -0.18em;
     margin-left: 0.4em;
     font-size: 2em; }
-    .visible-cloaks .fa-long-arrow-right:hover, .boom-bap .fa-long-arrow-right:hover {
+    .visible-cloaks .fa-long-arrow-right:hover, .boom-bap .fa-long-arrow-right:hover, .eames-office .fa-long-arrow-right:hover {
       color: #E4B849; }
-  .visible-cloaks .top-photo, .boom-bap .top-photo {
+  .visible-cloaks .top-photo, .boom-bap .top-photo, .eames-office .top-photo {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between; }
-  .visible-cloaks .middle-photo, .boom-bap .middle-photo {
+  .visible-cloaks .middle-photo, .boom-bap .middle-photo, .eames-office .middle-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 5em; }
-  .visible-cloaks .bottom-photo, .boom-bap .bottom-photo {
+  .visible-cloaks .bottom-photo, .boom-bap .bottom-photo, .eames-office .bottom-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 7em; }
-    .visible-cloaks .bottom-photo img, .boom-bap .bottom-photo img {
+    .visible-cloaks .bottom-photo img, .boom-bap .bottom-photo img, .eames-office .bottom-photo img {
       margin: 0 1em;
       width: 50%;
       height: 50%; }
-  .visible-cloaks .description, .boom-bap .description {
+  .visible-cloaks .description, .boom-bap .description, .eames-office .description {
     display: flex;
     justify-content: space-around;
     font-family: "Montserrat Ultra Light", sans-serif;
@@ -511,13 +510,23 @@ h3 {
     line-height: 2em;
     letter-spacing: 0.1em;
     margin-bottom: 5em; }
-  .visible-cloaks .title, .boom-bap .title {
+  .visible-cloaks .title, .boom-bap .title, .eames-office .title {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.14em; }
 
 .boom-bap .description {
   margin-bottom: 7em; }
+
+.eames-office img {
+  max-height: 34em; }
+.eames-office .bottom-photo {
+  justify-content: space-around;
+  align-items: center; }
+  .eames-office .bottom-photo .eo-mobile {
+    max-width: 13em; }
+  .eames-office .bottom-photo .eo-tablet {
+    max-width: 25em; }
 
 .sidebar {
   margin-top: -1em; }
