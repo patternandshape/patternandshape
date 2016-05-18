@@ -471,40 +471,42 @@ h3 {
     font-size: 6em;
     color: #3957C2; }
 
-.visible-cloaks, .boom-bap, .eames-office, .folkways {
+.visible-cloaks, .boom-bap, .eames-office, .folkways, .mosk, .crate {
   display: none;
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%; }
-  .visible-cloaks .title-link, .boom-bap .title-link, .eames-office .title-link, .folkways .title-link {
+  .visible-cloaks .title-link, .boom-bap .title-link, .eames-office .title-link, .folkways .title-link, .mosk .title-link, .crate .title-link {
     position: relative; }
-  .visible-cloaks .fa-long-arrow-right, .boom-bap .fa-long-arrow-right, .eames-office .fa-long-arrow-right, .folkways .fa-long-arrow-right {
+  .visible-cloaks .fa-long-arrow-right, .boom-bap .fa-long-arrow-right, .eames-office .fa-long-arrow-right, .folkways .fa-long-arrow-right, .mosk .fa-long-arrow-right, .crate .fa-long-arrow-right {
     position: absolute;
     top: -0.18em;
     margin-left: 0.4em;
     font-size: 2em; }
-    .visible-cloaks .fa-long-arrow-right:hover, .boom-bap .fa-long-arrow-right:hover, .eames-office .fa-long-arrow-right:hover, .folkways .fa-long-arrow-right:hover {
+    .visible-cloaks .fa-long-arrow-right:hover, .boom-bap .fa-long-arrow-right:hover, .eames-office .fa-long-arrow-right:hover, .folkways .fa-long-arrow-right:hover, .mosk .fa-long-arrow-right:hover, .crate .fa-long-arrow-right:hover {
       color: #E4B849; }
-  .visible-cloaks .top-photo, .boom-bap .top-photo, .eames-office .top-photo, .folkways .top-photo {
+  .visible-cloaks .top-photo, .boom-bap .top-photo, .eames-office .top-photo, .folkways .top-photo, .mosk .top-photo, .crate .top-photo {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between; }
-    .visible-cloaks .top-photo img, .boom-bap .top-photo img, .eames-office .top-photo img, .folkways .top-photo img {
+    .visible-cloaks .top-photo img, .boom-bap .top-photo img, .eames-office .top-photo img, .folkways .top-photo img, .mosk .top-photo img, .crate .top-photo img {
       max-height: 30em; }
-  .visible-cloaks .middle-photo, .boom-bap .middle-photo, .eames-office .middle-photo, .folkways .middle-photo {
+  .visible-cloaks .middle-photo, .boom-bap .middle-photo, .eames-office .middle-photo, .folkways .middle-photo, .mosk .middle-photo, .crate .middle-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 5em; }
-  .visible-cloaks .bottom-photo, .boom-bap .bottom-photo, .eames-office .bottom-photo, .folkways .bottom-photo {
+  .visible-cloaks .bottom-photo, .boom-bap .bottom-photo, .eames-office .bottom-photo, .folkways .bottom-photo, .mosk .bottom-photo, .crate .bottom-photo {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 7em; }
-    .visible-cloaks .bottom-photo img, .boom-bap .bottom-photo img, .eames-office .bottom-photo img, .folkways .bottom-photo img {
+    .visible-cloaks .bottom-photo img, .boom-bap .bottom-photo img, .eames-office .bottom-photo img, .folkways .bottom-photo img, .mosk .bottom-photo img, .crate .bottom-photo img {
       margin: 0 1em;
       width: 50%;
       height: 50%; }
-  .visible-cloaks .description, .boom-bap .description, .eames-office .description, .folkways .description {
+    .visible-cloaks .bottom-photo .crate-mobile, .boom-bap .bottom-photo .crate-mobile, .eames-office .bottom-photo .crate-mobile, .folkways .bottom-photo .crate-mobile, .mosk .bottom-photo .crate-mobile, .crate .bottom-photo .crate-mobile {
+      max-width: 17em; }
+  .visible-cloaks .description, .boom-bap .description, .eames-office .description, .folkways .description, .mosk .description, .crate .description {
     display: flex;
     justify-content: flex-start;
     font-family: "Montserrat Ultra Light", sans-serif;
@@ -512,7 +514,7 @@ h3 {
     line-height: 2em;
     letter-spacing: 0.1em;
     margin-bottom: 5em; }
-  .visible-cloaks .title, .boom-bap .title, .eames-office .title, .folkways .title {
+  .visible-cloaks .title, .boom-bap .title, .eames-office .title, .folkways .title, .mosk .title, .crate .title {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.14em; }

@@ -32,5 +32,21 @@ $(document).ready(function() {
     });
   });
 
+  $(".mo").click(function() {
+    $(".project-gallery").fadeOut("500");
+
+    $.when($(".project-gallery").fadeOut("500")).then(function() {
+      $(".mosk").fadeIn("500");
+    });
+  });
+
+  $(".crate-link").click(function() {
+    $(".project-gallery").fadeOut("500");
+
+    $.when($(".project-gallery").fadeOut("500")).then(function() {
+      $(".crate").fadeIn("500");
+    });
+  });
+
   event.preventDefault();
 });

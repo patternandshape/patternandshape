@@ -33,7 +33,7 @@
   }
 }
 
-.visible-cloaks, .boom-bap, .eames-office, .folkways  {
+.visible-cloaks, .boom-bap, .eames-office, .folkways, .mosk, .crate  {
   display: none;
   margin-left: -6em;
   margin-top: 0.25em;
@@ -66,12 +66,15 @@
   }
   .bottom-photo {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 7em;
     img {
       margin: 0 1em;
       width: 50%;
       height: 50%;
+    }
+    .crate-mobile {
+      max-width: 17em;
     }
   }
   .description {
@@ -99,8 +102,6 @@
 .eames-office {
   img {
     width: 100%;
-    // max-height: 900px;
-    // height: 100%;
   }
   .bottom-photo {
     .eo-mobile {
