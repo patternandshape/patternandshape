@@ -2,15 +2,15 @@ $(document).ready(function() {
   $('.gallery-item').click(function() {
     $('.project-gallery').fadeOut("500");
     $gallery_item = jQuery(this);
-        console.log($gallery_item);
+
     var gallery_item_id = parseInt($gallery_item.attr('id').replace('gallery', ''), 10);
-console.log(gallery_item_id);
+
     var $projects = $('.projects');
     $projects.each(function() {
 
       $div = jQuery(this);
       var div_id = parseInt($div.attr('id').replace('project', ''), 10);
-      console.log(div_id);
+
       $div.fadeOut("500", function() {
         if (div_id == gallery_item_id) {
           $div.fadeIn("500");
@@ -19,6 +19,7 @@ console.log(gallery_item_id);
     });
   });
   $('.list').click(function() {
+    $('.project-gallery').fadeOut("500");
     $list = jQuery(this);
     var list_id = parseInt($list.attr('id').replace('list', ''), 10);
 
