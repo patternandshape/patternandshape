@@ -19,6 +19,7 @@
       -ms-transform: scale(1.10,1.10);
       -webkit-transform: scale(1.10,1.10);
       transform: scale(1.10,1.10);
+      cursor: pointer;
     }
   }
 }
@@ -32,16 +33,13 @@
   }
 }
 
-.visible-cloaks, .boom-bap, .eames-office {
+.visible-cloaks, .boom-bap, .eames-office, .folkways  {
   display: none;
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%;
   .title-link {
     position: relative;
-  }
-  img {
-    max-height: 30em;
   }
   .fa-long-arrow-right {
     position: absolute;
@@ -57,6 +55,9 @@
     justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between;
+    img {
+      max-height: 30em;
+    }
   }
   .middle-photo {
     display: flex;
@@ -97,7 +98,9 @@
 
 .eames-office {
   img {
-    height: 34em;
+    width: 100%;
+    // max-height: 900px;
+    // height: 100%;
   }
   .bottom-photo {
     .eo-mobile {

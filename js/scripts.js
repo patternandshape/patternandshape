@@ -23,6 +23,14 @@ $(document).ready(function() {
       $(".eames-office").fadeIn("500");
     });
   });
-  
+
+  $(".fw").click(function() {
+    $(".project-gallery").fadeOut("500");
+
+    $.when($(".project-gallery").fadeOut("500")).then(function() {
+      $(".folkways").fadeIn("500");
+    });
+  });
+
   event.preventDefault();
 });

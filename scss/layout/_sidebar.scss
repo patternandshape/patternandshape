@@ -1,5 +1,12 @@
 .sidebar {
   margin-top: -1em;
+  .projects-all {
+    width: 87px;
+    font-family: $mont-reg-stack;
+    letter-spacing: 0.2em;
+    border-bottom: 0.15em dotted $mustard;
+    padding-bottom: 1.25em;
+  }
   ul {
     padding: 0;
     list-style-type: none;

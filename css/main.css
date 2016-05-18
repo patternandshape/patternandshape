@@ -461,7 +461,8 @@ h3 {
     .project-gallery img:hover {
       -ms-transform: scale(1.1, 1.1);
       -webkit-transform: scale(1.1, 1.1);
-      transform: scale(1.1, 1.1); }
+      transform: scale(1.1, 1.1);
+      cursor: pointer; }
 
 .main-cv-zone {
   margin: 0 auto;
@@ -470,40 +471,40 @@ h3 {
     font-size: 6em;
     color: #3957C2; }
 
-.visible-cloaks, .boom-bap, .eames-office {
+.visible-cloaks, .boom-bap, .eames-office, .folkways {
   display: none;
   margin-left: -6em;
   margin-top: 0.25em;
   width: 83%; }
-  .visible-cloaks .title-link, .boom-bap .title-link, .eames-office .title-link {
+  .visible-cloaks .title-link, .boom-bap .title-link, .eames-office .title-link, .folkways .title-link {
     position: relative; }
-  .visible-cloaks img, .boom-bap img, .eames-office img {
-    max-height: 30em; }
-  .visible-cloaks .fa-long-arrow-right, .boom-bap .fa-long-arrow-right, .eames-office .fa-long-arrow-right {
+  .visible-cloaks .fa-long-arrow-right, .boom-bap .fa-long-arrow-right, .eames-office .fa-long-arrow-right, .folkways .fa-long-arrow-right {
     position: absolute;
     top: -0.18em;
     margin-left: 0.4em;
     font-size: 2em; }
-    .visible-cloaks .fa-long-arrow-right:hover, .boom-bap .fa-long-arrow-right:hover, .eames-office .fa-long-arrow-right:hover {
+    .visible-cloaks .fa-long-arrow-right:hover, .boom-bap .fa-long-arrow-right:hover, .eames-office .fa-long-arrow-right:hover, .folkways .fa-long-arrow-right:hover {
       color: #E4B849; }
-  .visible-cloaks .top-photo, .boom-bap .top-photo, .eames-office .top-photo {
+  .visible-cloaks .top-photo, .boom-bap .top-photo, .eames-office .top-photo, .folkways .top-photo {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between; }
-  .visible-cloaks .middle-photo, .boom-bap .middle-photo, .eames-office .middle-photo {
+    .visible-cloaks .top-photo img, .boom-bap .top-photo img, .eames-office .top-photo img, .folkways .top-photo img {
+      max-height: 30em; }
+  .visible-cloaks .middle-photo, .boom-bap .middle-photo, .eames-office .middle-photo, .folkways .middle-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 5em; }
-  .visible-cloaks .bottom-photo, .boom-bap .bottom-photo, .eames-office .bottom-photo {
+  .visible-cloaks .bottom-photo, .boom-bap .bottom-photo, .eames-office .bottom-photo, .folkways .bottom-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 7em; }
-    .visible-cloaks .bottom-photo img, .boom-bap .bottom-photo img, .eames-office .bottom-photo img {
+    .visible-cloaks .bottom-photo img, .boom-bap .bottom-photo img, .eames-office .bottom-photo img, .folkways .bottom-photo img {
       margin: 0 1em;
       width: 50%;
       height: 50%; }
-  .visible-cloaks .description, .boom-bap .description, .eames-office .description {
+  .visible-cloaks .description, .boom-bap .description, .eames-office .description, .folkways .description {
     display: flex;
     justify-content: flex-start;
     font-family: "Montserrat Ultra Light", sans-serif;
@@ -511,7 +512,7 @@ h3 {
     line-height: 2em;
     letter-spacing: 0.1em;
     margin-bottom: 5em; }
-  .visible-cloaks .title, .boom-bap .title, .eames-office .title {
+  .visible-cloaks .title, .boom-bap .title, .eames-office .title, .folkways .title {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.14em; }
@@ -520,7 +521,7 @@ h3 {
   margin-bottom: 7em; }
 
 .eames-office img {
-  height: 34em; }
+  width: 100%; }
 .eames-office .bottom-photo {
   justify-content: space-around;
   align-items: center; }
@@ -531,6 +532,12 @@ h3 {
 
 .sidebar {
   margin-top: -1em; }
+  .sidebar .projects-all {
+    width: 87px;
+    font-family: "Montserrat Regular", sans-serif;
+    letter-spacing: 0.2em;
+    border-bottom: 0.15em dotted #E4B849;
+    padding-bottom: 1.25em; }
   .sidebar ul {
     padding: 0;
     list-style-type: none; }
