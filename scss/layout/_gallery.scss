@@ -33,9 +33,10 @@
   }
 }
 
-.visible-cloaks, .boom-bap, .eames-office, .folkways, .mosk, .crate  {
+#project1, #project2, #project3, #project4, #project5, #project6  {
   display: none;
   margin-left: -6em;
+  margin-right: 6em;
   margin-top: 0.25em;
   width: 83%;
   .title-link {
@@ -93,13 +94,13 @@
   }
 }
 
-.boom-bap {
+#boom-bap {
   .description {
     margin-bottom: 7em;
   }
 }
 
-.eames-office {
+#eames-office {
   img {
     width: 100%;
   }

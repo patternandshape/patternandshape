@@ -471,42 +471,43 @@ h3 {
     font-size: 6em;
     color: #3957C2; }
 
-.visible-cloaks, .boom-bap, .eames-office, .folkways, .mosk, .crate {
+#project1, #project2, #project3, #project4, #project5, #project6 {
   display: none;
   margin-left: -6em;
+  margin-right: 6em;
   margin-top: 0.25em;
   width: 83%; }
-  .visible-cloaks .title-link, .boom-bap .title-link, .eames-office .title-link, .folkways .title-link, .mosk .title-link, .crate .title-link {
+  #project1 .title-link, #project2 .title-link, #project3 .title-link, #project4 .title-link, #project5 .title-link, #project6 .title-link {
     position: relative; }
-  .visible-cloaks .fa-long-arrow-right, .boom-bap .fa-long-arrow-right, .eames-office .fa-long-arrow-right, .folkways .fa-long-arrow-right, .mosk .fa-long-arrow-right, .crate .fa-long-arrow-right {
+  #project1 .fa-long-arrow-right, #project2 .fa-long-arrow-right, #project3 .fa-long-arrow-right, #project4 .fa-long-arrow-right, #project5 .fa-long-arrow-right, #project6 .fa-long-arrow-right {
     position: absolute;
     top: -0.18em;
     margin-left: 0.4em;
     font-size: 2em; }
-    .visible-cloaks .fa-long-arrow-right:hover, .boom-bap .fa-long-arrow-right:hover, .eames-office .fa-long-arrow-right:hover, .folkways .fa-long-arrow-right:hover, .mosk .fa-long-arrow-right:hover, .crate .fa-long-arrow-right:hover {
+    #project1 .fa-long-arrow-right:hover, #project2 .fa-long-arrow-right:hover, #project3 .fa-long-arrow-right:hover, #project4 .fa-long-arrow-right:hover, #project5 .fa-long-arrow-right:hover, #project6 .fa-long-arrow-right:hover {
       color: #E4B849; }
-  .visible-cloaks .top-photo, .boom-bap .top-photo, .eames-office .top-photo, .folkways .top-photo, .mosk .top-photo, .crate .top-photo {
+  #project1 .top-photo, #project2 .top-photo, #project3 .top-photo, #project4 .top-photo, #project5 .top-photo, #project6 .top-photo {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between; }
-    .visible-cloaks .top-photo img, .boom-bap .top-photo img, .eames-office .top-photo img, .folkways .top-photo img, .mosk .top-photo img, .crate .top-photo img {
+    #project1 .top-photo img, #project2 .top-photo img, #project3 .top-photo img, #project4 .top-photo img, #project5 .top-photo img, #project6 .top-photo img {
       max-height: 30em; }
-  .visible-cloaks .middle-photo, .boom-bap .middle-photo, .eames-office .middle-photo, .folkways .middle-photo, .mosk .middle-photo, .crate .middle-photo {
+  #project1 .middle-photo, #project2 .middle-photo, #project3 .middle-photo, #project4 .middle-photo, #project5 .middle-photo, #project6 .middle-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 5em; }
-  .visible-cloaks .bottom-photo, .boom-bap .bottom-photo, .eames-office .bottom-photo, .folkways .bottom-photo, .mosk .bottom-photo, .crate .bottom-photo {
+  #project1 .bottom-photo, #project2 .bottom-photo, #project3 .bottom-photo, #project4 .bottom-photo, #project5 .bottom-photo, #project6 .bottom-photo {
     display: flex;
     justify-content: space-around;
     margin-bottom: 7em; }
-    .visible-cloaks .bottom-photo img, .boom-bap .bottom-photo img, .eames-office .bottom-photo img, .folkways .bottom-photo img, .mosk .bottom-photo img, .crate .bottom-photo img {
+    #project1 .bottom-photo img, #project2 .bottom-photo img, #project3 .bottom-photo img, #project4 .bottom-photo img, #project5 .bottom-photo img, #project6 .bottom-photo img {
       margin: 0 1em;
       width: 50%;
       height: 50%; }
-    .visible-cloaks .bottom-photo .crate-mobile, .boom-bap .bottom-photo .crate-mobile, .eames-office .bottom-photo .crate-mobile, .folkways .bottom-photo .crate-mobile, .mosk .bottom-photo .crate-mobile, .crate .bottom-photo .crate-mobile {
+    #project1 .bottom-photo .crate-mobile, #project2 .bottom-photo .crate-mobile, #project3 .bottom-photo .crate-mobile, #project4 .bottom-photo .crate-mobile, #project5 .bottom-photo .crate-mobile, #project6 .bottom-photo .crate-mobile {
       max-width: 17em; }
-  .visible-cloaks .description, .boom-bap .description, .eames-office .description, .folkways .description, .mosk .description, .crate .description {
+  #project1 .description, #project2 .description, #project3 .description, #project4 .description, #project5 .description, #project6 .description {
     display: flex;
     justify-content: flex-start;
     font-family: "Montserrat Ultra Light", sans-serif;
@@ -514,22 +515,22 @@ h3 {
     line-height: 2em;
     letter-spacing: 0.1em;
     margin-bottom: 5em; }
-  .visible-cloaks .title, .boom-bap .title, .eames-office .title, .folkways .title, .mosk .title, .crate .title {
+  #project1 .title, #project2 .title, #project3 .title, #project4 .title, #project5 .title, #project6 .title {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.14em; }
 
-.boom-bap .description {
+#boom-bap .description {
   margin-bottom: 7em; }
 
-.eames-office img {
+#eames-office img {
   width: 100%; }
-.eames-office .bottom-photo {
+#eames-office .bottom-photo {
   justify-content: space-around;
   align-items: center; }
-  .eames-office .bottom-photo .eo-mobile {
+  #eames-office .bottom-photo .eo-mobile {
     max-width: 13em; }
-  .eames-office .bottom-photo .eo-tablet {
+  #eames-office .bottom-photo .eo-tablet {
     max-width: 25em; }
 
 .sidebar {
