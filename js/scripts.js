@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.gallery-item').click(function() {
-    $('.project-gallery').fadeOut("500");
+    $('.project-gallery').fadeOut(250);
     $gallery_item = jQuery(this);
 
     var gallery_item_id = parseInt($gallery_item.attr('id').replace('gallery', ''), 10);
@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
   });
   $('.list').click(function() {
-    $('.project-gallery').fadeOut("500");
+    $('.project-gallery').fadeOut(250);
     $list = jQuery(this);
     var list_id = parseInt($list.attr('id').replace('list', ''), 10);
 
@@ -31,7 +31,7 @@ $(document).ready(function() {
 
       $div.fadeOut("500", function() {
         if (div_id == list_id) {
-          $div.fadeIn("500");
+          $div.fadeIn(500);
         }
       });
     });
