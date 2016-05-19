@@ -8,6 +8,7 @@
 .project-gallery {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
   img {
     max-width: 190px;
     max-height: 190px;
@@ -33,12 +34,11 @@
   }
 }
 
-#project1, #project2, #project3, #project4, #project5, #project6  {
+#project1, #project2, #project3, #project4, #project5, #project6 {
   display: none;
-  margin-left: -6em;
-  margin-right: 6em;
+  margin-left: -4em;
   margin-top: 0.25em;
-  width: 83%;
+  width: 85%;
   .title-link {
     position: relative;
   }
@@ -52,12 +52,13 @@
   	}
   }
   .top-photo {
+    width: 95%;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between;
     img {
-      max-height: 30em;
+      max-height: 33em;
     }
   }
   .middle-photo {
