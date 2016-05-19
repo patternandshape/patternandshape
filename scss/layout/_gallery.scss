@@ -54,11 +54,10 @@
   .top-photo {
     width: 95%;
     display: flex;
-    justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between;
     img {
-      max-height: 33em;
+      max-height: 30em;
     }
   }
   .middle-photo {

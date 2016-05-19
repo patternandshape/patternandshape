@@ -378,7 +378,8 @@ html {
 body {
   background: #0F0F0F;
   font-family: "Montserrat Light", sans-serif;
-  color: #FFF; }
+  color: #FFF;
+  overflow-x: hidden; }
 
 .container {
   width: 90%;
@@ -489,11 +490,10 @@ h3 {
   #project1 .top-photo, #project2 .top-photo, #project3 .top-photo, #project4 .top-photo, #project5 .top-photo, #project6 .top-photo {
     width: 95%;
     display: flex;
-    justify-content: flex-start;
     margin-bottom: 2em;
     justify-content: space-between; }
     #project1 .top-photo img, #project2 .top-photo img, #project3 .top-photo img, #project4 .top-photo img, #project5 .top-photo img, #project6 .top-photo img {
-      max-height: 33em; }
+      max-height: 30em; }
   #project1 .middle-photo, #project2 .middle-photo, #project3 .middle-photo, #project4 .middle-photo, #project5 .middle-photo, #project6 .middle-photo {
     display: flex;
     justify-content: center;
