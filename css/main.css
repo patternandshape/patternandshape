@@ -473,42 +473,42 @@ h3 {
     font-size: 6em;
     color: #3957C2; }
 
-#project1, #project2, #project3, #project4, #project5, #project6 {
+#project1, #project2, #project3, #project4, #project5, #project6, #project7 {
   display: none;
   margin-left: -4em;
   margin-top: 0.25em;
   width: 85%; }
-  #project1 .title-link, #project2 .title-link, #project3 .title-link, #project4 .title-link, #project5 .title-link, #project6 .title-link {
+  #project1 .title-link, #project2 .title-link, #project3 .title-link, #project4 .title-link, #project5 .title-link, #project6 .title-link, #project7 .title-link {
     position: relative; }
-  #project1 .fa-long-arrow-right, #project2 .fa-long-arrow-right, #project3 .fa-long-arrow-right, #project4 .fa-long-arrow-right, #project5 .fa-long-arrow-right, #project6 .fa-long-arrow-right {
+  #project1 .fa-long-arrow-right, #project2 .fa-long-arrow-right, #project3 .fa-long-arrow-right, #project4 .fa-long-arrow-right, #project5 .fa-long-arrow-right, #project6 .fa-long-arrow-right, #project7 .fa-long-arrow-right {
     position: absolute;
     top: -0.18em;
     margin-left: 0.4em;
     font-size: 2em; }
-    #project1 .fa-long-arrow-right:hover, #project2 .fa-long-arrow-right:hover, #project3 .fa-long-arrow-right:hover, #project4 .fa-long-arrow-right:hover, #project5 .fa-long-arrow-right:hover, #project6 .fa-long-arrow-right:hover {
+    #project1 .fa-long-arrow-right:hover, #project2 .fa-long-arrow-right:hover, #project3 .fa-long-arrow-right:hover, #project4 .fa-long-arrow-right:hover, #project5 .fa-long-arrow-right:hover, #project6 .fa-long-arrow-right:hover, #project7 .fa-long-arrow-right:hover {
       color: #E4B849; }
-  #project1 .top-photo, #project2 .top-photo, #project3 .top-photo, #project4 .top-photo, #project5 .top-photo, #project6 .top-photo {
+  #project1 .top-photo, #project2 .top-photo, #project3 .top-photo, #project4 .top-photo, #project5 .top-photo, #project6 .top-photo, #project7 .top-photo {
     width: 95%;
     display: flex;
     margin-bottom: 2em;
     justify-content: space-between; }
-    #project1 .top-photo img, #project2 .top-photo img, #project3 .top-photo img, #project4 .top-photo img, #project5 .top-photo img, #project6 .top-photo img {
+    #project1 .top-photo img, #project2 .top-photo img, #project3 .top-photo img, #project4 .top-photo img, #project5 .top-photo img, #project6 .top-photo img, #project7 .top-photo img {
       max-height: 30em; }
-  #project1 .middle-photo, #project2 .middle-photo, #project3 .middle-photo, #project4 .middle-photo, #project5 .middle-photo, #project6 .middle-photo {
+  #project1 .middle-photo, #project2 .middle-photo, #project3 .middle-photo, #project4 .middle-photo, #project5 .middle-photo, #project6 .middle-photo, #project7 .middle-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 5em; }
-  #project1 .bottom-photo, #project2 .bottom-photo, #project3 .bottom-photo, #project4 .bottom-photo, #project5 .bottom-photo, #project6 .bottom-photo {
+  #project1 .bottom-photo, #project2 .bottom-photo, #project3 .bottom-photo, #project4 .bottom-photo, #project5 .bottom-photo, #project6 .bottom-photo, #project7 .bottom-photo {
     display: flex;
     justify-content: space-around;
     margin-bottom: 7em; }
-    #project1 .bottom-photo img, #project2 .bottom-photo img, #project3 .bottom-photo img, #project4 .bottom-photo img, #project5 .bottom-photo img, #project6 .bottom-photo img {
+    #project1 .bottom-photo img, #project2 .bottom-photo img, #project3 .bottom-photo img, #project4 .bottom-photo img, #project5 .bottom-photo img, #project6 .bottom-photo img, #project7 .bottom-photo img {
       margin: 0 1em;
       width: 50%;
       height: 50%; }
-    #project1 .bottom-photo .crate-mobile, #project2 .bottom-photo .crate-mobile, #project3 .bottom-photo .crate-mobile, #project4 .bottom-photo .crate-mobile, #project5 .bottom-photo .crate-mobile, #project6 .bottom-photo .crate-mobile {
+    #project1 .bottom-photo .crate-mobile, #project2 .bottom-photo .crate-mobile, #project3 .bottom-photo .crate-mobile, #project4 .bottom-photo .crate-mobile, #project5 .bottom-photo .crate-mobile, #project6 .bottom-photo .crate-mobile, #project7 .bottom-photo .crate-mobile {
       max-width: 17em; }
-  #project1 .description, #project2 .description, #project3 .description, #project4 .description, #project5 .description, #project6 .description {
+  #project1 .description, #project2 .description, #project3 .description, #project4 .description, #project5 .description, #project6 .description, #project7 .description {
     display: flex;
     justify-content: flex-start;
     font-family: "Montserrat Ultra Light", sans-serif;
@@ -516,7 +516,7 @@ h3 {
     line-height: 2em;
     letter-spacing: 0.1em;
     margin-bottom: 5em; }
-  #project1 .title, #project2 .title, #project3 .title, #project4 .title, #project5 .title, #project6 .title {
+  #project1 .title, #project2 .title, #project3 .title, #project4 .title, #project5 .title, #project6 .title, #project7 .title {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.14em; }
