@@ -79,13 +79,14 @@
     }
   }
   .description {
-    display: flex;
-    justify-content: flex-start;
     font-family: $mont-lightest-stack;
     font-size: .9em;
     line-height: 2em;
     letter-spacing: 0.1em;
     margin-bottom: 5em;
+    a {
+      color: $mustard;
+    }
   }
   .title {
     font-family: $mont-reg-stack;

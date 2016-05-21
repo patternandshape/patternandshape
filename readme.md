@@ -1,12 +1,13 @@
 # Pattern &amp; Shape
 
-May 20, 2016
+This is currently in progress!
+
 
 ##### By Molly Curtin
 
 ### Description
 
-Pattern &amp; Shape is the online portfolio of Molly Curtin. This is currently in progress...
+Pattern &amp; Shape is the online portfolio of Molly Curtin. 
 
 
 ### Technologies Used

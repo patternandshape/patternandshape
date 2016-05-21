@@ -509,13 +509,13 @@ h3 {
     #project1 .bottom-photo .crate-mobile, #project2 .bottom-photo .crate-mobile, #project3 .bottom-photo .crate-mobile, #project4 .bottom-photo .crate-mobile, #project5 .bottom-photo .crate-mobile, #project6 .bottom-photo .crate-mobile, #project7 .bottom-photo .crate-mobile {
       max-width: 17em; }
   #project1 .description, #project2 .description, #project3 .description, #project4 .description, #project5 .description, #project6 .description, #project7 .description {
-    display: flex;
-    justify-content: flex-start;
     font-family: "Montserrat Ultra Light", sans-serif;
     font-size: .9em;
     line-height: 2em;
     letter-spacing: 0.1em;
     margin-bottom: 5em; }
+    #project1 .description a, #project2 .description a, #project3 .description a, #project4 .description a, #project5 .description a, #project6 .description a, #project7 .description a {
+      color: #E4B849; }
   #project1 .title, #project2 .title, #project3 .title, #project4 .title, #project5 .title, #project6 .title, #project7 .title {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
@@ -647,19 +647,18 @@ h3 {
     left: 3.1em;
     visibility: hidden; }
 
-.cv-wrapper {
+.who-wrapper {
   max-width: 135px;
   position: absolute;
   top: 39em;
   left: 12em; }
-  .cv-wrapper:hover h2 {
+  .who-wrapper:hover h2 {
     visibility: visible; }
-  .cv-wrapper h2 {
+  .who-wrapper h2 {
     position: absolute;
-    top: -0.55em;
+    top: 0.2em;
     left: 0.55em;
-    letter-spacing: .8em;
-    font-size: 2.5em;
+    font-size: 1.6em;
     visibility: hidden;
     color: #0F0F0F; }
 
