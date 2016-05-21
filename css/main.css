@@ -441,7 +441,9 @@ h3 {
   border-bottom: 2px solid #FFF;
   margin-top: 1.2em; }
   .navbar h1 {
-    flex: 3; }
+    flex: 1; }
+  .navbar .social-icons .cv {
+    font-size: 1.25em; }
 
 .gallery-wrapper {
   max-width: 78%;
