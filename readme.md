@@ -1,12 +1,12 @@
 # Pattern &amp; Shape
 
-May 19, 2016
+May 20, 2016
 
 ##### By Molly Curtin
 
 ### Description
 
-Pattern &amp; Shape is the online portfolio of Molly Curtin.
+Pattern &amp; Shape is the online portfolio of Molly Curtin. This is currently in progress...
 
 
 ### Technologies Used
@@ -20,7 +20,7 @@ Pattern &amp; Shape is the online portfolio of Molly Curtin.
 * Font Awesome
 * Git
 
-Pattern &amp; Shape can also be viewed at http://patternandshape.github.io/portfolio
+
 
 ##### License
 
