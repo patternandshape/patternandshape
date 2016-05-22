@@ -20,7 +20,7 @@ Pattern &amp; Shape is the web development and design portfolio of Molly Curtin.
 * Font Awesome
 * Git
 
-Pattern & Shape can also be viewed at http://patternandshape.github.io
+Pattern & Shape can also be viewed at http://patternandshape.github.io/portfolio
 
 ##### License
 
