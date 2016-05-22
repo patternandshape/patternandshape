@@ -947,11 +947,11 @@ h3 {
     visibility: visible; }
   .who-wrapper h2 {
     position: absolute;
-    top: 0.2em;
-    left: 0.55em;
+    top: -3em;
+    left: 3em;
     font-size: 1.6em;
     visibility: hidden;
-    color: #0F0F0F; }
+    color: #FFFFFF; }
 
 .print-wrapper {
   max-width: 340px;
