@@ -475,9 +475,6 @@ h3 {
     font-size: 6em;
     color: #3957C2; }
 
-.description .credit {
-  margin-bottom: 100em; }
-
 #project1,
 #project2,
 #project3,
@@ -496,6 +493,7 @@ h3 {
 #project16,
 #project17,
 #project18 {
+  display: none;
   margin-left: -4em;
   margin-top: 0.25em;
   width: 85%; }
@@ -772,7 +770,8 @@ h3 {
     margin-right: 3em; }
 
 #project10 .top-photo img,
-#project12 .top-photo img {
+#project12 .top-photo img,
+#project14 .top-photo img {
   max-height: 32em; }
 
 #project13 .middle-photo {
