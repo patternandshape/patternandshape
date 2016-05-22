@@ -186,7 +186,7 @@
   }
 }
 
-#project16, {
+#project16 {
   .middle-photo {
     width: 97%;
     display: flex;
@@ -213,6 +213,24 @@
     justify-content: flex-start;
     img {
       max-height: 44em;
+    }
+  }
+}
+
+#project18 {
+  .top-photo {
+    display: flex;
+    justify-content: space-between;
+    img {
+      max-height: 28em;
+      margin-right: 2em;
+    }
+  }
+  .middle-photo {
+    display: flex;
+    justify-content: space-between;
+    img {
+      max-height: 50em;
     }
   }
 }

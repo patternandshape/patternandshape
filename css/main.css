@@ -443,7 +443,7 @@ h3 {
   .navbar h1 {
     flex: 1; }
   .navbar .social-icons .cv {
-    font-size: 1.25em; }
+    font-size: 1.2em; }
 
 .gallery-wrapper {
   max-width: 78%;
@@ -810,6 +810,18 @@ h3 {
   justify-content: flex-start; }
   #project17 .middle-photo img {
     max-height: 44em; }
+
+#project18 .top-photo {
+  display: flex;
+  justify-content: space-between; }
+  #project18 .top-photo img {
+    max-height: 28em;
+    margin-right: 2em; }
+#project18 .middle-photo {
+  display: flex;
+  justify-content: space-between; }
+  #project18 .middle-photo img {
+    max-height: 50em; }
 
 .sidebar {
   margin-top: -1em; }
