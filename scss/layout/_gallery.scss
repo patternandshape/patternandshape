@@ -34,6 +34,12 @@
   }
 }
 
+.description {
+  .credit {
+    margin-bottom: 100em;
+  }
+}
+
 #project1,
 #project2,
 #project3,
@@ -52,7 +58,7 @@
 #project16,
 #project17,
 #project18   {
-  display: none;
+  // display: none;
   margin-left: -4em;
   margin-top: 0.25em;
   width: 85%;
@@ -154,6 +160,17 @@
   .top-photo {
     img {
       max-height: 32em;
+    }
+  }
+}
+
+#project13 {
+  .middle-photo {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    img {
+      max-height: 24.3em;
     }
   }
 }
