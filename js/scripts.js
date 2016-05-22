@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.gallery-item').click(function() {
-    $('.project-gallery').fadeOut(250);
+    $('.project-gallery').hide();
 
     $gallery_item = jQuery(this);
 
@@ -14,30 +14,32 @@ $(document).ready(function() {
 
       $div.fadeOut(500, function() {
         if (div_id === gallery_item_id) {
-          $div.fadeIn(500);
+          var $selectedDiv = $div;
+          $selectedDiv.fadeIn(500);
         }
       });
     });
   });
 
-  $('.list').click(function() {
-    $('.project-gallery').fadeOut(500);
+
+$('.list').click(function(){
+  $('.project-gallery').hide()
     $list = jQuery(this);
     var list_id = parseInt($list.attr('id').replace('list', ''), 10);
-
     var $projects = $('.projects');
-    $projects.each(function() {
 
+    $projects.each(function(){
       $div = jQuery(this);
       var div_id = parseInt($div.attr('id').replace('project', ''), 10);
 
-      $div.fadeOut(500, function() {
-        if (div_id == list_id) {
-          $div.fadeIn(500);
+//selectedDiv only fires after .hide is fully executed
+      $div.hide().promise().done(function(){
+        if (div_id === list_id) {
+          var $selectedDiv = jQuery(this);
+          $selectedDiv.fadeIn(1500);
         }
-      });
     });
   });
-
+});
   event.preventDefault();
 });
