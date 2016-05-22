@@ -790,6 +790,16 @@ h3 {
     max-height: 27em;
     margin-right: 3em; }
 
+#project16 .middle-photo {
+  width: 97%;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  #project16 .middle-photo img {
+    max-height: 27em;
+    margin-bottom: 3em; }
+
 .sidebar {
   margin-top: -1em; }
   .sidebar .projects-all {
