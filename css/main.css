@@ -781,6 +781,15 @@ h3 {
   #project13 .middle-photo img {
     max-height: 24.3em; }
 
+#project15 .top-photo img {
+  max-height: 23em; }
+#project15 .middle-photo {
+  display: flex;
+  justify-content: space-between; }
+  #project15 .middle-photo img {
+    max-height: 27em;
+    margin-right: 3em; }
+
 .sidebar {
   margin-top: -1em; }
   .sidebar .projects-all {

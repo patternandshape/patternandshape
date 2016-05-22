@@ -169,3 +169,19 @@
     }
   }
 }
+
+#project15 {
+  .top-photo {
+    img {
+    max-height: 23em;
+    }
+  }
+  .middle-photo {
+    display: flex;
+    justify-content: space-between;
+    img {
+    max-height: 27em;
+    margin-right: 3em;
+    }
+  }
+}
