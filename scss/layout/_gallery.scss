@@ -34,7 +34,17 @@
   }
 }
 
-#project1, #project2, #project3, #project4, #project5, #project6, #project7 {
+#project1,
+#project2,
+#project3,
+#project4,
+#project5,
+#project6,
+#project7,
+#project8,
+#project9,
+#project10,
+#project11  {
   display: none;
   margin-left: -4em;
   margin-top: 0.25em;
@@ -111,5 +121,16 @@
   }
   justify-content: space-around;
   align-items: center;
+  }
+}
+
+#project8 {
+  .top-photo {
+    display: flex;
+    justify-content: space-between;
+    img {
+      max-height: 26em;
+      margin-right: 3em;
+    }
   }
 }
