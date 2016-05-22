@@ -653,7 +653,14 @@ h3 {
     font-size: 1.6em;
     letter-spacing: 0.14em; }
 
-#project2 .description {
+#project2 .description,
+#project4 .description,
+#project5 .description,
+#project7 .description,
+#project8 .description,
+#project9 .description,
+#project10 .description,
+#project11 .description {
   margin-bottom: 7em; }
 
 #project3 .bottom-photo {
