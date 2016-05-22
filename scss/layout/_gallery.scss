@@ -44,7 +44,14 @@
 #project8,
 #project9,
 #project10,
-#project11  {
+#project11,
+#project12,
+#project13,
+#project14,
+#project15,
+#project16,
+#project17,
+#project18   {
   display: none;
   margin-left: -4em;
   margin-top: 0.25em;
@@ -142,7 +149,8 @@
   }
 }
 
-#project10 {
+#project10,
+#project12 {
   .top-photo {
     img {
       max-height: 32em;

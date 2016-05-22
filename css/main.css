@@ -485,7 +485,14 @@ h3 {
 #project8,
 #project9,
 #project10,
-#project11 {
+#project11,
+#project12,
+#project13,
+#project14,
+#project15,
+#project16,
+#project17,
+#project18 {
   display: none;
   margin-left: -4em;
   margin-top: 0.25em;
@@ -500,7 +507,14 @@ h3 {
   #project8 .title-link,
   #project9 .title-link,
   #project10 .title-link,
-  #project11 .title-link {
+  #project11 .title-link,
+  #project12 .title-link,
+  #project13 .title-link,
+  #project14 .title-link,
+  #project15 .title-link,
+  #project16 .title-link,
+  #project17 .title-link,
+  #project18 .title-link {
     position: relative; }
   #project1 .fa-long-arrow-right,
   #project2 .fa-long-arrow-right,
@@ -512,7 +526,14 @@ h3 {
   #project8 .fa-long-arrow-right,
   #project9 .fa-long-arrow-right,
   #project10 .fa-long-arrow-right,
-  #project11 .fa-long-arrow-right {
+  #project11 .fa-long-arrow-right,
+  #project12 .fa-long-arrow-right,
+  #project13 .fa-long-arrow-right,
+  #project14 .fa-long-arrow-right,
+  #project15 .fa-long-arrow-right,
+  #project16 .fa-long-arrow-right,
+  #project17 .fa-long-arrow-right,
+  #project18 .fa-long-arrow-right {
     position: absolute;
     top: -0.18em;
     margin-left: 0.4em;
@@ -527,7 +548,14 @@ h3 {
     #project8 .fa-long-arrow-right:hover,
     #project9 .fa-long-arrow-right:hover,
     #project10 .fa-long-arrow-right:hover,
-    #project11 .fa-long-arrow-right:hover {
+    #project11 .fa-long-arrow-right:hover,
+    #project12 .fa-long-arrow-right:hover,
+    #project13 .fa-long-arrow-right:hover,
+    #project14 .fa-long-arrow-right:hover,
+    #project15 .fa-long-arrow-right:hover,
+    #project16 .fa-long-arrow-right:hover,
+    #project17 .fa-long-arrow-right:hover,
+    #project18 .fa-long-arrow-right:hover {
       color: #E4B849; }
   #project1 .top-photo,
   #project2 .top-photo,
@@ -539,7 +567,14 @@ h3 {
   #project8 .top-photo,
   #project9 .top-photo,
   #project10 .top-photo,
-  #project11 .top-photo {
+  #project11 .top-photo,
+  #project12 .top-photo,
+  #project13 .top-photo,
+  #project14 .top-photo,
+  #project15 .top-photo,
+  #project16 .top-photo,
+  #project17 .top-photo,
+  #project18 .top-photo {
     width: 95%;
     display: flex;
     margin-bottom: 2em;
@@ -554,7 +589,14 @@ h3 {
     #project8 .top-photo img,
     #project9 .top-photo img,
     #project10 .top-photo img,
-    #project11 .top-photo img {
+    #project11 .top-photo img,
+    #project12 .top-photo img,
+    #project13 .top-photo img,
+    #project14 .top-photo img,
+    #project15 .top-photo img,
+    #project16 .top-photo img,
+    #project17 .top-photo img,
+    #project18 .top-photo img {
       max-height: 30em; }
   #project1 .middle-photo,
   #project2 .middle-photo,
@@ -566,7 +608,14 @@ h3 {
   #project8 .middle-photo,
   #project9 .middle-photo,
   #project10 .middle-photo,
-  #project11 .middle-photo {
+  #project11 .middle-photo,
+  #project12 .middle-photo,
+  #project13 .middle-photo,
+  #project14 .middle-photo,
+  #project15 .middle-photo,
+  #project16 .middle-photo,
+  #project17 .middle-photo,
+  #project18 .middle-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 5em; }
@@ -580,7 +629,14 @@ h3 {
   #project8 .bottom-photo,
   #project9 .bottom-photo,
   #project10 .bottom-photo,
-  #project11 .bottom-photo {
+  #project11 .bottom-photo,
+  #project12 .bottom-photo,
+  #project13 .bottom-photo,
+  #project14 .bottom-photo,
+  #project15 .bottom-photo,
+  #project16 .bottom-photo,
+  #project17 .bottom-photo,
+  #project18 .bottom-photo {
     display: flex;
     justify-content: space-around;
     margin-bottom: 7em; }
@@ -594,7 +650,14 @@ h3 {
     #project8 .bottom-photo img,
     #project9 .bottom-photo img,
     #project10 .bottom-photo img,
-    #project11 .bottom-photo img {
+    #project11 .bottom-photo img,
+    #project12 .bottom-photo img,
+    #project13 .bottom-photo img,
+    #project14 .bottom-photo img,
+    #project15 .bottom-photo img,
+    #project16 .bottom-photo img,
+    #project17 .bottom-photo img,
+    #project18 .bottom-photo img {
       margin: 0 1em;
       width: 50%;
       height: 50%; }
@@ -608,7 +671,14 @@ h3 {
     #project8 .bottom-photo .crate-mobile,
     #project9 .bottom-photo .crate-mobile,
     #project10 .bottom-photo .crate-mobile,
-    #project11 .bottom-photo .crate-mobile {
+    #project11 .bottom-photo .crate-mobile,
+    #project12 .bottom-photo .crate-mobile,
+    #project13 .bottom-photo .crate-mobile,
+    #project14 .bottom-photo .crate-mobile,
+    #project15 .bottom-photo .crate-mobile,
+    #project16 .bottom-photo .crate-mobile,
+    #project17 .bottom-photo .crate-mobile,
+    #project18 .bottom-photo .crate-mobile {
       max-width: 17em; }
   #project1 .description,
   #project2 .description,
@@ -620,7 +690,14 @@ h3 {
   #project8 .description,
   #project9 .description,
   #project10 .description,
-  #project11 .description {
+  #project11 .description,
+  #project12 .description,
+  #project13 .description,
+  #project14 .description,
+  #project15 .description,
+  #project16 .description,
+  #project17 .description,
+  #project18 .description {
     font-family: "Montserrat Ultra Light", sans-serif;
     font-size: .9em;
     line-height: 2em;
@@ -636,7 +713,14 @@ h3 {
     #project8 .description a,
     #project9 .description a,
     #project10 .description a,
-    #project11 .description a {
+    #project11 .description a,
+    #project12 .description a,
+    #project13 .description a,
+    #project14 .description a,
+    #project15 .description a,
+    #project16 .description a,
+    #project17 .description a,
+    #project18 .description a {
       color: #E4B849; }
   #project1 .title,
   #project2 .title,
@@ -648,7 +732,14 @@ h3 {
   #project8 .title,
   #project9 .title,
   #project10 .title,
-  #project11 .title {
+  #project11 .title,
+  #project12 .title,
+  #project13 .title,
+  #project14 .title,
+  #project15 .title,
+  #project16 .title,
+  #project17 .title,
+  #project18 .title {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.14em; }
@@ -678,7 +769,8 @@ h3 {
     max-height: 26em;
     margin-right: 3em; }
 
-#project10 .top-photo img {
+#project10 .top-photo img,
+#project12 .top-photo img {
   max-height: 32em; }
 
 .sidebar {

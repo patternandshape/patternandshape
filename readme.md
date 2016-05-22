@@ -7,7 +7,7 @@ This is currently in progress!
 
 ### Description
 
-Pattern &amp; Shape is the online portfolio of Molly Curtin. 
+Pattern &amp; Shape is the web development and design portfolio of Molly Curtin. 
 
 
 ### Technologies Used
