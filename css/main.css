@@ -800,6 +800,17 @@ h3 {
     max-height: 27em;
     margin-bottom: 3em; }
 
+#project17 .top-photo {
+  width: 100%; }
+  #project17 .top-photo img {
+    max-height: 24.5em;
+    margin-right: 1.5em; }
+#project17 .middle-photo {
+  display: flex;
+  justify-content: flex-start; }
+  #project17 .middle-photo img {
+    max-height: 44em; }
+
 .sidebar {
   margin-top: -1em; }
   .sidebar .projects-all {
