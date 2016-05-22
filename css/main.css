@@ -999,4 +999,16 @@ h3 {
     font-size: 1.5em;
     color: #FFF; }
 
+.who-zone {
+  display: flex;
+  margin: 3em 0; }
+  .who-zone img {
+    width: 50%;
+    height: 50%;
+    transition-duration: 7s; }
+    .who-zone img:hover {
+      transform: rotate(720deg); }
+  .who-zone h1:nth-child(even) {
+    color: #3957C2; }
+
 /*# sourceMappingURL=main.css.map */
