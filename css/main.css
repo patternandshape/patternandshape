@@ -671,6 +671,9 @@ h3 {
     max-height: 26em;
     margin-right: 3em; }
 
+#project10 .top-photo img {
+  max-height: 32em; }
+
 .sidebar {
   margin-top: -1em; }
   .sidebar .projects-all {
