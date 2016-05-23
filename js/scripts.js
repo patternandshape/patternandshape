@@ -36,7 +36,7 @@ $('.list').click(function(){
       $div.hide().promise().done(function(){
         if (div_id === list_id) {
           var $selectedDiv = jQuery(this);
-          $selectedDiv.fadeIn(1500);
+          $selectedDiv.fadeIn(500);
         }
     });
   });
