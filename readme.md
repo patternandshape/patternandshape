@@ -1,13 +1,14 @@
 # Pattern &amp; Shape
 
-May 23, 2016
+May 30, 2016
 
 ##### By Molly Curtin
 
 ### Description
 
-Pattern &amp; Shape is the web development and design portfolio of Molly Curtin.
+Pattern &amp; Shape is the web development + design portfolio of Molly Curtin.
 
+Pattern &amp; Shape can be viewed at http://patternandshape.org
 
 ### Technologies Used
 
@@ -19,8 +20,6 @@ Pattern &amp; Shape is the web development and design portfolio of Molly Curtin.
 * Photoshop
 * Font Awesome
 * Git
-
-Pattern & Shape can also be viewed at http://patternandshape.github.io/portfolio
 
 ##### License
 
