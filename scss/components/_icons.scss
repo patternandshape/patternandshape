@@ -1,3 +1,5 @@
+// bouncing email icon //
+
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
 		-webkit-transform: translateY(0);
@@ -12,6 +14,8 @@
 		transform: translateY(-10px);
 	}
 }
+
+//top menu icons //
 
 .social-icons {
 	display: flex;

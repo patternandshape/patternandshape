@@ -1,3 +1,5 @@
+// main gallery section layout //
+
 .gallery-wrapper {
   max-width: 78%;
   display: flex;
@@ -25,14 +27,7 @@
   }
 }
 
-.main-cv-zone {
-  margin: 0 auto;
-  margin-top: 12em;
-  h1 {
-    font-size: 6em;
-    color: $blue;
-  }
-}
+// layouts for each project //
 
 #project1,
 #project2,

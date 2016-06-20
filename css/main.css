@@ -468,13 +468,6 @@ h3 {
       transform: scale(1.1, 1.1);
       cursor: pointer; }
 
-.main-cv-zone {
-  margin: 0 auto;
-  margin-top: 12em; }
-  .main-cv-zone h1 {
-    font-size: 6em;
-    color: #3957C2; }
-
 #project1,
 #project2,
 #project3,
@@ -951,7 +944,7 @@ h3 {
     left: 3em;
     font-size: 1.6em;
     visibility: hidden;
-    color: #FFFFFF; }
+    color: #FFF; }
 
 .print-wrapper {
   max-width: 340px;
