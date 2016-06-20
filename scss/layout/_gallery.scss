@@ -1,9 +1,12 @@
 // main gallery section layout //
 
 .gallery-wrapper {
-  max-width: 78%;
+  width: 78%;
   display: flex;
   justify-content: center;
+  @media #{$laptop} {
+    width: 80%;
+  }
 }
 
 .project-gallery {
@@ -50,6 +53,9 @@
   margin-left: -4em;
   margin-top: 0.25em;
   width: 85%;
+  @media #{$laptop} {
+    margin-left: 1em;
+  }
   .title-link {
     position: relative;
   }
@@ -69,6 +75,10 @@
     justify-content: space-between;
     img {
       max-height: 30em;
+      @media #{$laptop} {
+        max-height: 23em;
+        width: 100%;
+      }
     }
   }
   .middle-photo {

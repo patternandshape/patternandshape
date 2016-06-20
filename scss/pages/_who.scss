@@ -17,4 +17,9 @@
   h1:nth-child(even) {
     color: $blue;
   }
+  h1 {
+    @media #{$laptop} {
+      font-size: 1.3em;
+  }
+  }
 }

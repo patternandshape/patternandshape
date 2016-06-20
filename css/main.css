@@ -451,9 +451,12 @@ p {
     font-size: 1.2em; }
 
 .gallery-wrapper {
-  max-width: 78%;
+  width: 78%;
   display: flex;
   justify-content: center; }
+  @media (min-width: 1023px) and (max-width: 1550px) {
+    .gallery-wrapper {
+      width: 80%; } }
 
 .project-gallery {
   display: flex;
@@ -494,6 +497,26 @@ p {
   margin-left: -4em;
   margin-top: 0.25em;
   width: 85%; }
+  @media (min-width: 1023px) and (max-width: 1550px) {
+    #project1,
+    #project2,
+    #project3,
+    #project4,
+    #project5,
+    #project6,
+    #project7,
+    #project8,
+    #project9,
+    #project10,
+    #project11,
+    #project12,
+    #project13,
+    #project14,
+    #project15,
+    #project16,
+    #project17,
+    #project18 {
+      margin-left: 1em; } }
   #project1 .title-link,
   #project2 .title-link,
   #project3 .title-link,
@@ -595,6 +618,27 @@ p {
     #project17 .top-photo img,
     #project18 .top-photo img {
       max-height: 30em; }
+      @media (min-width: 1023px) and (max-width: 1550px) {
+        #project1 .top-photo img,
+        #project2 .top-photo img,
+        #project3 .top-photo img,
+        #project4 .top-photo img,
+        #project5 .top-photo img,
+        #project6 .top-photo img,
+        #project7 .top-photo img,
+        #project8 .top-photo img,
+        #project9 .top-photo img,
+        #project10 .top-photo img,
+        #project11 .top-photo img,
+        #project12 .top-photo img,
+        #project13 .top-photo img,
+        #project14 .top-photo img,
+        #project15 .top-photo img,
+        #project16 .top-photo img,
+        #project17 .top-photo img,
+        #project18 .top-photo img {
+          max-height: 23em;
+          width: 100%; } }
   #project1 .middle-photo,
   #project2 .middle-photo,
   #project3 .middle-photo,
@@ -897,8 +941,14 @@ p {
     -webkit-transition: opacity .25s ease-in-out; }
     .main-zone #eye:hover {
       opacity: 0.2; }
+    @media (min-width: 1023px) and (max-width: 1550px) {
+      .main-zone #eye {
+        width: 80%; } }
   .main-zone #hand:hover {
     -webkit-animation: wiggle 0.5s infinite; }
+  @media (min-width: 1023px) and (max-width: 1550px) {
+    .main-zone #hand {
+      width: 65%; } }
   .main-zone #record {
     transition-duration: 7s; }
     .main-zone #record:hover {
@@ -944,6 +994,11 @@ p {
     top: 1.5em;
     left: 3.1em;
     visibility: hidden; }
+    @media (min-width: 1023px) and (max-width: 1550px) {
+      .web-wrapper h2 {
+        font-size: 2.5em;
+        top: 1.4em;
+        left: 2.95em; } }
 
 .who-wrapper {
   max-width: 135px;
@@ -959,6 +1014,9 @@ p {
     font-size: 1.6em;
     visibility: hidden;
     color: #FFF; }
+  @media (min-width: 1023px) and (max-width: 1550px) {
+    .who-wrapper {
+      left: 8em; } }
 
 .print-wrapper {
   max-width: 340px;
@@ -974,10 +1032,18 @@ p {
     left: 2.9em;
     visibility: hidden;
     color: #FF3800; }
+    @media (min-width: 1023px) and (max-width: 1550px) {
+      .print-wrapper h2 {
+        font-size: 2.5em;
+        top: 3.4em;
+        left: 1.95em; } }
   @media (min-width: 1725px) {
     .print-wrapper {
-      margin: 0;
-      left: 52em; } }
+      left: 40em; } }
+  @media (min-width: 1023px) and (max-width: 1550px) {
+    .print-wrapper {
+      top: 20em;
+      left: 27em; } }
 
 .mix-wrapper {
   position: absolute;
@@ -993,6 +1059,10 @@ p {
     visibility: hidden;
     font-size: 1.5em;
     color: #E4B849; }
+  @media (min-width: 1023px) and (max-width: 1550px) {
+    .mix-wrapper {
+      top: 37em;
+      right: 10em; } }
 
 .blog-wrapper {
   max-width: 100px;
@@ -1022,5 +1092,8 @@ p {
       transform: rotate(720deg); }
   .who-zone h1:nth-child(even) {
     color: #3957C2; }
+  @media (min-width: 1023px) and (max-width: 1550px) {
+    .who-zone h1 {
+      font-size: 1.3em; } }
 
 /*# sourceMappingURL=main.css.map */

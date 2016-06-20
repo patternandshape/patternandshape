@@ -28,11 +28,17 @@
     &:hover {
       opacity: 0.2;
     }
+    @media #{$laptop} {
+    width: 80%;
+  }
   }
   #hand {
     &:hover {
       -webkit-animation: wiggle 0.5s infinite;
     }
+    @media #{$laptop} {
+    width: 65%;
+  }
   }
   #record {
     transition-duration: 7s;
@@ -85,6 +91,11 @@
     top: 1.5em;
     left: 3.1em;
     visibility: hidden;
+    @media #{$laptop} {
+    font-size: 2.5em;
+    top: 1.4em;
+    left: 2.95em;
+  }
   }
 }
 
@@ -104,6 +115,9 @@
     visibility: hidden;
     color: $white;
   }
+  @media #{$laptop} {
+    left: 8em;
+  }
 }
 
 .print-wrapper {
@@ -121,10 +135,18 @@
     left: 2.9em;
     visibility: hidden;
     color: $red;
+    @media #{$laptop} {
+    font-size: 2.5em;
+    top: 3.4em;
+    left: 1.95em;
+  }
   }
   @media #{$desktop} {
-    margin: 0;
-    left: 52em;
+    left: 40em;
+  }
+  @media #{$laptop} {
+    top: 20em;
+    left: 27em;
   }
 }
 
@@ -143,6 +165,10 @@
     visibility: hidden;
     font-size: 1.5em;
     color: $mustard;
+  }
+  @media #{$laptop} {
+    top: 37em;
+    right: 10em;
   }
 }
 
