@@ -110,7 +110,7 @@
   max-width: 340px;
   position: absolute;
   top: 16em;
-  right: 27.5em;
+  left: 45em;
   &:hover h2 {
     visibility: visible;
   }
@@ -121,6 +121,10 @@
     left: 2.9em;
     visibility: hidden;
     color: $red;
+  }
+  @media #{$desktop} {
+    margin: 0;
+    left: 52em;
   }
 }
 

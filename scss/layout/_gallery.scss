@@ -4,7 +4,6 @@
   max-width: 78%;
   display: flex;
   justify-content: center;
-  align-self: center;
 }
 
 .project-gallery {
@@ -162,6 +161,9 @@
     img {
       max-height: 24.3em;
     }
+    @media #{$desktop} {
+    justify-content: center;
+  }
   }
 }
 
@@ -192,6 +194,9 @@
     max-height: 27em;
     margin-bottom: 3em;
     }
+    @media #{$desktop} {
+    max-width: 1000px;
+  }
   }
 }
 
@@ -209,11 +214,15 @@
     img {
       max-height: 44em;
     }
+    @media #{$desktop} {
+    justify-content: center;
+  }
   }
 }
 
 #project18 {
   .top-photo {
+    width: 90%;
     display: flex;
     justify-content: space-between;
     img {

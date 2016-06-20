@@ -21,7 +21,12 @@ h3 {
   color: $link-blue;
 }
 
+p {
+  max-width: 94%;
+}
+
 // instances of 'fi' where the kerning is too tight //
+
 .wonky {
   letter-spacing: .2em;
 }

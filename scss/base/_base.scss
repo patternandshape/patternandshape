@@ -14,6 +14,10 @@ html {
             box-sizing: border-box;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+
 // Scrollbar //
 
 ::-webkit-scrollbar{

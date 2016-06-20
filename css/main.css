@@ -363,6 +363,8 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+@-ms-viewport {
+  width: device-width; }
 ::-webkit-scrollbar {
   width: 15px; }
 
@@ -432,6 +434,9 @@ h3 {
   font-size: 1.1em;
   color: #6181F2; }
 
+p {
+  max-width: 94%; }
+
 .wonky {
   letter-spacing: .2em; }
 
@@ -448,8 +453,7 @@ h3 {
 .gallery-wrapper {
   max-width: 78%;
   display: flex;
-  justify-content: center;
-  align-self: center; }
+  justify-content: center; }
 
 .project-gallery {
   display: flex;
@@ -773,6 +777,9 @@ h3 {
   margin-bottom: 0; }
   #project13 .middle-photo img {
     max-height: 24.3em; }
+  @media (min-width: 1725px) {
+    #project13 .middle-photo {
+      justify-content: center; } }
 
 #project15 .top-photo img {
   max-height: 23em; }
@@ -792,6 +799,9 @@ h3 {
   #project16 .middle-photo img {
     max-height: 27em;
     margin-bottom: 3em; }
+  @media (min-width: 1725px) {
+    #project16 .middle-photo {
+      max-width: 1000px; } }
 
 #project17 .top-photo {
   width: 100%; }
@@ -803,8 +813,12 @@ h3 {
   justify-content: flex-start; }
   #project17 .middle-photo img {
     max-height: 44em; }
+  @media (min-width: 1725px) {
+    #project17 .middle-photo {
+      justify-content: center; } }
 
 #project18 .top-photo {
+  width: 90%;
   display: flex;
   justify-content: space-between; }
   #project18 .top-photo img {
@@ -950,7 +964,7 @@ h3 {
   max-width: 340px;
   position: absolute;
   top: 16em;
-  right: 27.5em; }
+  left: 45em; }
   .print-wrapper:hover h2 {
     visibility: visible; }
   .print-wrapper h2 {
@@ -960,6 +974,10 @@ h3 {
     left: 2.9em;
     visibility: hidden;
     color: #FF3800; }
+  @media (min-width: 1725px) {
+    .print-wrapper {
+      margin: 0;
+      left: 52em; } }
 
 .mix-wrapper {
   position: absolute;
@@ -994,6 +1012,7 @@ h3 {
 
 .who-zone {
   display: flex;
+  justify-content: space-between;
   margin: 3em 0; }
   .who-zone img {
     width: 50%;

@@ -24,20 +24,10 @@ $mont-light-stack: 'Montserrat Light', sans-serif;
 $mont-lightest-stack: 'Montserrat Ultra Light', sans-serif;
 
 
-/// Container's maximum width
-/// @type Length
-$max-width: 1180px !default;
+/// Breakpoints
 
+  $mobile: '(min-width: 320px)';
+  $tablet: '(min-width: 768px)';
+  $laptop: '(min-width: 1024px)';
+  $desktop: '(min-width: 1725px)';
 
-
-
-
-/// Breakpoints map
-/// @prop {String} keys - Keys are identifiers mapped to a given length
-/// @prop {Map} values - Values are actual breakpoints expressed in pixels
-/// @see {mixin} respond-to
-$breakpoints: (
-  'small': (min-width: 320px),
-  'medium': (min-width: 768px),
-  'large': (min-width: 1024px),
-) !default;
