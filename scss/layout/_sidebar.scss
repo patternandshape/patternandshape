@@ -14,6 +14,11 @@
   ul {
     padding: 0;
     list-style-type: none;
+    a {
+      @media #{$tablet} {
+        font-size: 1.2em;
+      }
+    }
     li {
       color: $white;
       list-style: none;
@@ -21,6 +26,10 @@
       letter-spacing: 0.1em;
       margin-bottom: 2em;
       font-size: 1 em;
+      @media #{$tablet} {
+        font-size: 0.87em;
+        margin-bottom: 2.5em;
+      }
       &:hover {
         color: $link-blue;
         cursor: pointer;

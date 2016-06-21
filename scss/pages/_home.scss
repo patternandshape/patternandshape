@@ -30,15 +30,21 @@
     }
     @media #{$laptop} {
     width: 80%;
-  }
+    }
+    @media #{$tablet} {
+      width: 60%;
+    }
   }
   #hand {
     &:hover {
       -webkit-animation: wiggle 0.5s infinite;
     }
     @media #{$laptop} {
-    width: 65%;
-  }
+      width: 65%;
+    }
+    @media #{$tablet} {
+      width: 60%;
+    }
   }
   #record {
     transition-duration: 7s;
@@ -79,6 +85,9 @@
   position: absolute;
   top: 6em;
   left: 6em;
+  @media #{$tablet} {
+      left: 3em;
+  }
   &:hover h2 {
     visibility: visible;
     color: $white;
@@ -92,10 +101,15 @@
     left: 3.1em;
     visibility: hidden;
     @media #{$laptop} {
-    font-size: 2.5em;
-    top: 1.4em;
-    left: 2.95em;
-  }
+      font-size: 2.5em;
+      top: 1.4em;
+      left: 2.95em;
+    }
+    @media #{$tablet} {
+      font-size: 2.15em;
+      top: 1em;
+      left: 2.4em;
+    }
   }
 }
 
@@ -118,6 +132,10 @@
   @media #{$laptop} {
     left: 8em;
   }
+  @media #{$tablet} {
+    top: 35em;
+    left: 4em;
+  }
 }
 
 .print-wrapper {
@@ -136,10 +154,15 @@
     visibility: hidden;
     color: $red;
     @media #{$laptop} {
-    font-size: 2.5em;
-    top: 3.4em;
-    left: 1.95em;
-  }
+      font-size: 2.5em;
+      top: 3.4em;
+      left: 1.95em;
+    }
+    @media #{$tablet} {
+      font-size: 2.1em;
+      top: 3.77em;
+      left: 2.4em;
+    }
   }
   @media #{$desktop} {
     left: 40em;
@@ -147,6 +170,10 @@
   @media #{$laptop} {
     top: 20em;
     left: 27em;
+  }
+  @media #{$tablet} {
+    top: 17em;
+    left: 20em;
   }
 }
 
@@ -170,6 +197,9 @@
     top: 37em;
     right: 10em;
   }
+  @media #{$tablet} {
+    top: 39em;
+  }
 }
 
 .blog-wrapper {
@@ -188,5 +218,9 @@
     transition:2s ease-in;
     font-size: 1.5em;
     color: $white;
+  }
+  @media #{$tablet} {
+    top: 5em;
+    right: 8em;
   }
 }

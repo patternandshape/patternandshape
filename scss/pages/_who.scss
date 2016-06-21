@@ -10,6 +10,11 @@
     width: 50%;
     height: 50%;
     transition-duration: 7s;
+    @media #{$tablet} {
+      width: 75%;
+      height: 75%;
+      margin-bottom: 3em;
+    }
     &:hover {
       transform: rotate(720deg);
     }
@@ -21,5 +26,9 @@
     @media #{$laptop} {
       font-size: 1.3em;
   }
+  }
+  @media #{$tablet} {
+      flex-wrap: wrap;
+      margin-top: 0;
   }
 }

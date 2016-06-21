@@ -27,6 +27,9 @@
       cursor: pointer;
     }
   }
+  @media #{$tablet} {
+      margin-left: 2.7em;
+  }
 }
 
 // layouts for each project //
@@ -80,12 +83,20 @@
       @media #{$laptop} {
         height: 24em;
       }
+      @media #{$tablet} {
+        height: 17em;
+      }
     }
   }
   .middle-photo {
     display: flex;
     justify-content: center;
     margin-bottom: 5em;
+    img {
+      @media #{$tablet} {
+      height: 15em;
+    }
+    }
   }
   .bottom-photo {
     display: flex;
@@ -101,6 +112,9 @@
       @media #{$laptop} {
         max-width: 14em;
       }
+      @media #{$tablet} {
+        max-width: 11.5em;
+      }
     }
   }
   .description {
@@ -113,13 +127,36 @@
       color: $mustard;
     }
     @media #{$laptop} {
-    max-width: 100%;
-  }
+      max-width: 100%;
+    }
+    @media #{$tablet} {
+      max-width: 95%;
+    }
   }
   .title {
     font-family: $mont-reg-stack;
     font-size: 1.6em;
     letter-spacing: 0.14em;
+  }
+}
+
+#project1 {
+  .bottom-photo {
+    img {
+      @media #{$laptop} {
+        width: 65%;
+        height: 65%;
+        margin-bottom: 5em;
+      }
+      @media #{$tablet} {
+        width: 75%;
+        height: 75%;
+      }
+    }
+    @media #{$laptop} {
+        flex-wrap:wrap;
+        justify-content: center;
+    }
   }
 }
 
@@ -140,12 +177,22 @@
   .bottom-photo {
     .eo-mobile {
       max-width: 13em;
+      @media #{$tablet} {
+       min-width: 14em;
+      }
     }
   .eo-tablet {
       max-width: 25em;
+  @media #{$tablet} {
+    min-width: 22em;
+    margin-bottom: 5em; 
+  }
   }
   justify-content: space-around;
   align-items: center;
+  @media #{$tablet} {
+        flex-wrap:wrap; 
+  }
   }
 }
 
@@ -154,6 +201,9 @@
     img {
       @media #{$laptop} {
         height: 23em;
+      }
+      @media #{$tablet} {
+        height: 16.5em;
       }
     }
   }
@@ -169,10 +219,14 @@
       @media #{$laptop} {
         height: 19.5em;
       }
+      @media #{$tablet} {
+        height: 14em;
+      }
     }
   }
 }
 
+#project2, 
 #project3, 
 #project4, 
 #project5, 
@@ -184,6 +238,9 @@
       @media #{$laptop} {
         height: 25em;
       }
+      @media #{$tablet} {
+        height: 18em;
+      }
     }
   }
 }
@@ -193,6 +250,9 @@
     img {
       @media #{$laptop} {
         height: 27em;
+      }
+      @media #{$tablet} {
+        height: 19em;
       }
     }
   }
@@ -209,6 +269,23 @@
   }
 }
 
+#project12 {
+  .top-photo {
+    img {
+      @media #{$tablet} {
+        height: 20em;
+      }
+    }
+  }
+  .middle-photo {
+    img {
+      @media #{$tablet} {
+        height: 29em;
+      }
+    }
+  }
+}
+
 #project13 {
   .top-photo {
     @media #{$laptop} {
@@ -217,6 +294,9 @@
     img {
       @media #{$laptop} {
         height: 19em;
+      }
+      @media #{$tablet} {
+        height: 15em;
       }
     }
   }
@@ -229,10 +309,23 @@
       @media #{$laptop} {
         height: 16em;
       }
+      @media #{$tablet} {
+        height: 12em;
+      }
     }
     @media #{$desktop} {
-    justify-content: center;
+      justify-content: center;
   }
+  }
+}
+
+#project14 {
+  .top-photo {
+    img {
+      @media #{$tablet} {
+        height: 25em;
+      }
+    }
   }
 }
 
@@ -243,17 +336,25 @@
     @media #{$laptop} {
         height: 16em;
       }
+    @media #{$tablet} {
+        height: 11.5em;
+      }
     }
   }
   .middle-photo {
     display: flex;
     justify-content: space-between;
     img {
-    max-height: 27em;
-    margin-right: 3em;
-    @media #{$laptop} {
-      margin-bottom: 5em;
-    }
+      max-height: 27em;
+      margin-right: 3em;
+      @media #{$laptop} {
+        margin-bottom: 5em;
+      }
+      @media #{$tablet} {
+        width: 60%;
+        height: 60%;
+        margin-right: 0;
+      }
 
     }
     @media #{$laptop} {
@@ -269,6 +370,9 @@
       @media #{$laptop} {
         height: 21.5em;
       }
+      @media #{$tablet} {
+        height: 15.5em;
+      }
     }
   }
   .middle-photo {
@@ -278,8 +382,11 @@
     justify-content: space-between;
     flex-wrap: wrap;
     img {
-    max-height: 27em;
-    margin-bottom: 3em;
+      max-height: 27em;
+      margin-bottom: 3em;
+      @media #{$tablet} {
+        min-height: 20em;
+      }
     }
     @media #{$desktop} {
     max-width: 1000px;
@@ -299,6 +406,9 @@
       @media #{$laptop} {
         height: 18em;
       }
+      @media #{$tablet} {
+        height: 12em;
+      }
     }
   }
   .middle-photo {
@@ -308,6 +418,9 @@
       max-height: 44em;
       @media #{$laptop} {
         height: 32.5em;
+      }
+      @media #{$tablet} {
+        height: 21.75em;
       }
     }
     @media #{$desktop} {
@@ -327,6 +440,9 @@
       @media #{$laptop} {
         height: 20em;
       }
+      @media #{$tablet} {
+        height: 14.5em;
+      }
     }
   }
   .middle-photo {
@@ -336,6 +452,9 @@
       max-height: 50em;
       @media #{$laptop} {
         height: 28em;
+      }
+      @media #{$tablet} {
+        height: 21em;
       }
     }
     @media #{$laptop} {
@@ -347,7 +466,16 @@
       @media #{$laptop} {
         max-height: 40%;
         max-width: 40%;
+        @media #{$tablet} {
+          min-height: 65%;
+          min-width: 65%;
+          margin-bottom:5em;
+        }
       }
     }
+    @media #{$tablet} {
+        display:flex;
+        flex-wrap:wrap;
+      }
   }
 }
