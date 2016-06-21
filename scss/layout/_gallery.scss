@@ -78,7 +78,7 @@
     img {
       max-height: 30em;
       @media #{$laptop} {
-        height: 27em;
+        height: 24em;
       }
     }
   }
@@ -98,6 +98,9 @@
     }
     .crate-mobile {
       max-width: 17em;
+      @media #{$laptop} {
+        max-width: 14em;
+      }
     }
   }
   .description {
@@ -146,6 +149,16 @@
   }
 }
 
+#project6 {
+  .top-photo {
+    img {
+      @media #{$laptop} {
+        height: 23em;
+      }
+    }
+  }
+}
+
 #project8 {
   .top-photo {
     display: flex;
@@ -153,9 +166,38 @@
     img {
       max-height: 26em;
       margin-right: 3em;
+      @media #{$laptop} {
+        height: 19.5em;
+      }
     }
   }
 }
+
+#project3, 
+#project4, 
+#project5, 
+#project7, 
+#project9, 
+#project11 {
+  .top-photo {
+    img {
+      @media #{$laptop} {
+        height: 25em;
+      }
+    }
+  }
+}
+
+#project10 {
+  .top-photo {
+    img {
+      @media #{$laptop} {
+        height: 27em;
+      }
+    }
+  }
+}
+
 
 #project10,
 #project12,
@@ -168,12 +210,25 @@
 }
 
 #project13 {
+  .top-photo {
+    @media #{$laptop} {
+        width: 96%;
+    }
+    img {
+      @media #{$laptop} {
+        height: 19em;
+      }
+    }
+  }
   .middle-photo {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 0;
     img {
       max-height: 24.3em;
+      @media #{$laptop} {
+        height: 16em;
+      }
     }
     @media #{$desktop} {
     justify-content: center;
@@ -185,6 +240,9 @@
   .top-photo {
     img {
     max-height: 23em;
+    @media #{$laptop} {
+        height: 16em;
+      }
     }
   }
   .middle-photo {
@@ -193,11 +251,26 @@
     img {
     max-height: 27em;
     margin-right: 3em;
+    @media #{$laptop} {
+      margin-bottom: 5em;
+    }
+
+    }
+    @media #{$laptop} {
+      flex-wrap:wrap;
+      justify-content: center;
     }
   }
 }
 
 #project16 {
+  .top-photo {
+    img {
+      @media #{$laptop} {
+        height: 21.5em;
+      }
+    }
+  }
   .middle-photo {
     width: 97%;
     display: flex;
@@ -211,6 +284,9 @@
     @media #{$desktop} {
     max-width: 1000px;
   }
+    @media #{$laptop} {
+        justify-content: space-around;
+      }
   }
 }
 
@@ -220,6 +296,9 @@
     img {
       max-height: 24.5em;
       margin-right: 1.5em;
+      @media #{$laptop} {
+        height: 18em;
+      }
     }
   }
   .middle-photo {
@@ -227,6 +306,9 @@
     justify-content: flex-start;
     img {
       max-height: 44em;
+      @media #{$laptop} {
+        height: 32.5em;
+      }
     }
     @media #{$desktop} {
     justify-content: center;
@@ -242,6 +324,9 @@
     img {
       max-height: 28em;
       margin-right: 2em;
+      @media #{$laptop} {
+        height: 20em;
+      }
     }
   }
   .middle-photo {
@@ -249,6 +334,20 @@
     justify-content: space-between;
     img {
       max-height: 50em;
+      @media #{$laptop} {
+        height: 28em;
+      }
+    }
+    @media #{$laptop} {
+        justify-content: space-around;
+      }
+  }
+  .bottom-photo {
+    img {
+      @media #{$laptop} {
+        max-height: 40%;
+        max-width: 40%;
+      }
     }
   }
 }
