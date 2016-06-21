@@ -454,7 +454,7 @@ p {
   width: 78%;
   display: flex;
   justify-content: center; }
-  @media (min-width: 1023px) and (max-width: 1550px) {
+  @media (max-width: 1100px) {
     .gallery-wrapper {
       width: 80%; } }
 
@@ -497,7 +497,7 @@ p {
   margin-left: -4em;
   margin-top: 0.25em;
   width: 85%; }
-  @media (min-width: 1023px) and (max-width: 1550px) {
+  @media (max-width: 1100px) {
     #project1,
     #project2,
     #project3,
@@ -516,7 +516,9 @@ p {
     #project16,
     #project17,
     #project18 {
-      margin-left: 1em; } }
+      margin-left: 1em;
+      width: 95%;
+      margin-left: 4em; } }
   #project1 .title-link,
   #project2 .title-link,
   #project3 .title-link,
@@ -618,7 +620,7 @@ p {
     #project17 .top-photo img,
     #project18 .top-photo img {
       max-height: 30em; }
-      @media (min-width: 1023px) and (max-width: 1550px) {
+      @media (max-width: 1100px) {
         #project1 .top-photo img,
         #project2 .top-photo img,
         #project3 .top-photo img,
@@ -637,8 +639,7 @@ p {
         #project16 .top-photo img,
         #project17 .top-photo img,
         #project18 .top-photo img {
-          max-height: 23em;
-          width: 100%; } }
+          height: 27em; } }
   #project1 .middle-photo,
   #project2 .middle-photo,
   #project3 .middle-photo,
@@ -763,6 +764,26 @@ p {
     #project17 .description a,
     #project18 .description a {
       color: #E4B849; }
+    @media (max-width: 1100px) {
+      #project1 .description,
+      #project2 .description,
+      #project3 .description,
+      #project4 .description,
+      #project5 .description,
+      #project6 .description,
+      #project7 .description,
+      #project8 .description,
+      #project9 .description,
+      #project10 .description,
+      #project11 .description,
+      #project12 .description,
+      #project13 .description,
+      #project14 .description,
+      #project15 .description,
+      #project16 .description,
+      #project17 .description,
+      #project18 .description {
+        max-width: 100%; } }
   #project1 .title,
   #project2 .title,
   #project3 .title,
@@ -941,12 +962,12 @@ p {
     -webkit-transition: opacity .25s ease-in-out; }
     .main-zone #eye:hover {
       opacity: 0.2; }
-    @media (min-width: 1023px) and (max-width: 1550px) {
+    @media (max-width: 1100px) {
       .main-zone #eye {
         width: 80%; } }
   .main-zone #hand:hover {
     -webkit-animation: wiggle 0.5s infinite; }
-  @media (min-width: 1023px) and (max-width: 1550px) {
+  @media (max-width: 1100px) {
     .main-zone #hand {
       width: 65%; } }
   .main-zone #record {
@@ -994,7 +1015,7 @@ p {
     top: 1.5em;
     left: 3.1em;
     visibility: hidden; }
-    @media (min-width: 1023px) and (max-width: 1550px) {
+    @media (max-width: 1100px) {
       .web-wrapper h2 {
         font-size: 2.5em;
         top: 1.4em;
@@ -1014,7 +1035,7 @@ p {
     font-size: 1.6em;
     visibility: hidden;
     color: #FFF; }
-  @media (min-width: 1023px) and (max-width: 1550px) {
+  @media (max-width: 1100px) {
     .who-wrapper {
       left: 8em; } }
 
@@ -1032,7 +1053,7 @@ p {
     left: 2.9em;
     visibility: hidden;
     color: #FF3800; }
-    @media (min-width: 1023px) and (max-width: 1550px) {
+    @media (max-width: 1100px) {
       .print-wrapper h2 {
         font-size: 2.5em;
         top: 3.4em;
@@ -1040,7 +1061,7 @@ p {
   @media (min-width: 1725px) {
     .print-wrapper {
       left: 40em; } }
-  @media (min-width: 1023px) and (max-width: 1550px) {
+  @media (max-width: 1100px) {
     .print-wrapper {
       top: 20em;
       left: 27em; } }
@@ -1059,7 +1080,7 @@ p {
     visibility: hidden;
     font-size: 1.5em;
     color: #E4B849; }
-  @media (min-width: 1023px) and (max-width: 1550px) {
+  @media (max-width: 1100px) {
     .mix-wrapper {
       top: 37em;
       right: 10em; } }
@@ -1092,7 +1113,7 @@ p {
       transform: rotate(720deg); }
   .who-zone h1:nth-child(even) {
     color: #3957C2; }
-  @media (min-width: 1023px) and (max-width: 1550px) {
+  @media (max-width: 1100px) {
     .who-zone h1 {
       font-size: 1.3em; } }
 
