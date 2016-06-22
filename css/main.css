@@ -442,6 +442,9 @@ h3 {
   letter-spacing: 0.2em;
   font-size: 1.1em;
   color: #6181F2; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    h3 {
+      font-size: 0.86em; } }
 
 p {
   max-width: 94%; }
@@ -489,8 +492,8 @@ p {
     transition: 0.2s ease-in-out; }
     @media (min-width: 320px) and (max-width: 426px) {
       .project-gallery img {
-        max-width: 220px;
-        max-height: 220px; } }
+        min-width: 220px;
+        min-height: 220px; } }
     .project-gallery img:hover {
       -ms-transform: scale(1.1, 1.1);
       -webkit-transform: scale(1.1, 1.1);
@@ -501,8 +504,7 @@ p {
       margin-left: 2.7em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .project-gallery {
-      justify-content: center;
-      margin: 0 0 4em 4em; } }
+      margin: 0 0 3em 0; } }
 
 #project1,
 #project2,
@@ -548,6 +550,26 @@ p {
       margin-left: 1em;
       width: 95%;
       margin-left: 4em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    #project1,
+    #project2,
+    #project3,
+    #project4,
+    #project5,
+    #project6,
+    #project7,
+    #project8,
+    #project9,
+    #project10,
+    #project11,
+    #project12,
+    #project13,
+    #project14,
+    #project15,
+    #project16,
+    #project17,
+    #project18 {
+      margin: 0 auto; } }
   #project1 .title-link,
   #project2 .title-link,
   #project3 .title-link,
@@ -708,7 +730,7 @@ p {
         #project16 .top-photo img,
         #project17 .top-photo img,
         #project18 .top-photo img {
-          height: 16em; } }
+          height: 15em; } }
     @media (min-width: 320px) and (max-width: 426px) {
       #project1 .top-photo .vc-mobile,
       #project2 .top-photo .vc-mobile,
@@ -872,7 +894,7 @@ p {
         #project17 .bottom-photo .crate-mobile,
         #project18 .bottom-photo .crate-mobile {
           max-width: 14em; } }
-      @media (max-width: 850px) {
+      @media (min-width: 320px) and (max-width: 426px) {
         #project1 .bottom-photo .crate-mobile,
         #project2 .bottom-photo .crate-mobile,
         #project3 .bottom-photo .crate-mobile,
@@ -891,7 +913,28 @@ p {
         #project16 .bottom-photo .crate-mobile,
         #project17 .bottom-photo .crate-mobile,
         #project18 .bottom-photo .crate-mobile {
-          max-width: 11.5em; } }
+          min-width: 12em;
+          margin-bottom: 3em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project1 .bottom-photo,
+      #project2 .bottom-photo,
+      #project3 .bottom-photo,
+      #project4 .bottom-photo,
+      #project5 .bottom-photo,
+      #project6 .bottom-photo,
+      #project7 .bottom-photo,
+      #project8 .bottom-photo,
+      #project9 .bottom-photo,
+      #project10 .bottom-photo,
+      #project11 .bottom-photo,
+      #project12 .bottom-photo,
+      #project13 .bottom-photo,
+      #project14 .bottom-photo,
+      #project15 .bottom-photo,
+      #project16 .bottom-photo,
+      #project17 .bottom-photo,
+      #project18 .bottom-photo {
+        margin-bottom: 3em; } }
   #project1 .description,
   #project2 .description,
   #project3 .description,
@@ -1074,11 +1117,18 @@ p {
     @media (max-width: 850px) {
       #project3 .bottom-photo .eo-mobile {
         min-width: 14em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project3 .bottom-photo .eo-mobile {
+        min-width: 10em; } }
   #project3 .bottom-photo .eo-tablet {
     max-width: 25em; }
     @media (max-width: 850px) {
       #project3 .bottom-photo .eo-tablet {
         min-width: 22em;
+        margin-bottom: 5em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project3 .bottom-photo .eo-tablet {
+        min-width: 16em;
         margin-bottom: 5em; } }
   @media (max-width: 850px) {
     #project3 .bottom-photo {
@@ -1090,6 +1140,13 @@ p {
 @media (max-width: 850px) {
   #project6 .top-photo img {
     height: 16.5em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project6 .top-photo img {
+    height: 9.4em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project6 .bottom-photo {
+    flex-wrap: wrap;
+    margin-bottom: 2em; } }
 
 #project8 .top-photo {
   display: flex;
@@ -1103,6 +1160,9 @@ p {
     @media (max-width: 850px) {
       #project8 .top-photo img {
         height: 14em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project8 .top-photo img {
+        height: 11em; } }
 
 @media (max-width: 1100px) {
   #project2 .top-photo img,
@@ -1122,6 +1182,19 @@ p {
   #project9 .top-photo img,
   #project11 .top-photo img {
     height: 18em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project2 .top-photo img,
+  #project3 .top-photo img,
+  #project4 .top-photo img,
+  #project5 .top-photo img,
+  #project7 .top-photo img,
+  #project9 .top-photo img,
+  #project11 .top-photo img {
+    height: 10.25em; } }
+
+@media (min-width: 320px) and (max-width: 426px) {
+  #project9 .title {
+    font-size: 1.1em; } }
 
 @media (max-width: 1100px) {
   #project10 .top-photo img {
@@ -1129,6 +1202,9 @@ p {
 @media (max-width: 850px) {
   #project10 .top-photo img {
     height: 19em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project10 .top-photo img {
+    height: 11em; } }
 
 #project10 .top-photo img,
 #project12 .top-photo img,
@@ -1138,9 +1214,18 @@ p {
 @media (max-width: 850px) {
   #project12 .top-photo img {
     height: 20em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project12 .top-photo img {
+    height: 11em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project12 .title {
+    font-size: 1.2em; } }
 @media (max-width: 850px) {
   #project12 .middle-photo img {
     height: 29em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project12 .middle-photo img {
+    height: 23em; } }
 
 @media (max-width: 1100px) {
   #project13 .top-photo {
@@ -1151,6 +1236,15 @@ p {
 @media (max-width: 850px) {
   #project13 .top-photo img {
     height: 15em; } }
+@media (max-width: 850px) {
+  #project13 .top-photo img {
+    height: 16em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project13 .ladies, #project13 .shop {
+    display: none; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project13 .title {
+    font-size: 1.15em; } }
 #project13 .middle-photo {
   display: flex;
   justify-content: flex-start;
@@ -1163,9 +1257,16 @@ p {
     @media (max-width: 850px) {
       #project13 .middle-photo img {
         height: 12em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project13 .middle-photo img {
+        height: 16em;
+        margin-bottom: 0.5em; } }
   @media (min-width: 1725px) {
     #project13 .middle-photo {
       justify-content: center; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project13 .credit {
+    font-size: 0.8em; } }
 
 @media (max-width: 850px) {
   #project14 .top-photo img {
@@ -1179,6 +1280,9 @@ p {
   @media (max-width: 850px) {
     #project15 .top-photo img {
       height: 11.5em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    #project15 .top-photo img {
+      height: 6.25em; } }
 #project15 .middle-photo {
   display: flex;
   justify-content: space-between; }
@@ -1193,6 +1297,10 @@ p {
         width: 60%;
         height: 60%;
         margin-right: 0; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project15 .middle-photo img {
+        width: 90%;
+        height: 90%; } }
   @media (max-width: 1100px) {
     #project15 .middle-photo {
       flex-wrap: wrap;
@@ -1204,6 +1312,9 @@ p {
 @media (max-width: 850px) {
   #project16 .top-photo img {
     height: 15.5em; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project16 .top-photo img {
+    height: 8.5em; } }
 #project16 .middle-photo {
   width: 97%;
   display: flex;
@@ -1216,6 +1327,9 @@ p {
     @media (max-width: 850px) {
       #project16 .middle-photo img {
         min-height: 20em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project16 .middle-photo img {
+        min-height: 22em; } }
   @media (min-width: 1725px) {
     #project16 .middle-photo {
       max-width: 1000px; } }
@@ -1234,6 +1348,12 @@ p {
     @media (max-width: 850px) {
       #project17 .top-photo img {
         height: 12em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project17 .top-photo img {
+        height: 16em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    #project17 .top-photo .inner-cd {
+      display: none; } }
 #project17 .middle-photo {
   display: flex;
   justify-content: flex-start; }
@@ -1245,6 +1365,9 @@ p {
     @media (max-width: 850px) {
       #project17 .middle-photo img {
         height: 21.75em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project17 .middle-photo img {
+        height: 12.25em; } }
   @media (min-width: 1725px) {
     #project17 .middle-photo {
       justify-content: center; } }
@@ -1262,6 +1385,13 @@ p {
     @media (max-width: 850px) {
       #project18 .top-photo img {
         height: 14.5em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project18 .top-photo img {
+        height: 16em;
+        margin-bottom: 2em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    #project18 .top-photo {
+      flex-wrap: wrap; } }
 #project18 .middle-photo {
   display: flex;
   justify-content: space-between; }
@@ -1273,9 +1403,17 @@ p {
     @media (max-width: 850px) {
       #project18 .middle-photo img {
         height: 21em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project18 .middle-photo img {
+        height: 23em;
+        margin-bottom: 3em; } }
   @media (max-width: 1100px) {
     #project18 .middle-photo {
       justify-content: space-around; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    #project18 .middle-photo {
+      flex-wrap: wrap;
+      margin-bottom: 1em; } }
 @media (max-width: 1100px) {
   #project18 .bottom-photo img {
     max-height: 40%;
@@ -1285,6 +1423,11 @@ p {
       min-height: 65%;
       min-width: 65%;
       margin-bottom: 5em; } }
+  @media (max-width: 1100px) and (min-width: 320px) and (max-width: 426px) {
+    #project18 .bottom-photo img {
+      min-height: 100%;
+      min-width: 95%;
+      margin-bottom: 4em; } }
 
 @media (max-width: 850px) {
   #project18 .bottom-photo {
@@ -1368,7 +1511,8 @@ p {
     .social-icons-bottom {
       visibility: visible;
       justify-content: space-around;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      padding-bottom: 2em; } }
 
 @-webkit-keyframes wiggle {
   0% {
@@ -1392,6 +1536,9 @@ p {
     @media (max-width: 850px) {
       .main-zone #eye {
         width: 60%; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .main-zone #eye {
+        width: 50%; } }
   .main-zone #hand:hover {
     -webkit-animation: wiggle 0.5s infinite; }
   @media (max-width: 1100px) {
@@ -1400,6 +1547,9 @@ p {
   @media (max-width: 850px) {
     .main-zone #hand {
       width: 60%; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .main-zone #hand {
+      width: 5.5em; } }
   .main-zone #record {
     transition-duration: 7s; }
     .main-zone #record:hover {
@@ -1428,6 +1578,13 @@ p {
       -moz-transform: scale(0.05, 1) skew(0deg, 20deg);
       -o-transform: scale(0.05, 1) skew(0deg, 20deg);
       transform: scale(0.05, 1) skew(0deg, 20deg); }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .main-zone #window {
+        width: 3.5em; } }
+
+@media (min-width: 320px) and (max-width: 426px) {
+  #book {
+    width: 60%; } }
 
 .web-wrapper {
   max-width: 500px;
@@ -1437,6 +1594,10 @@ p {
   @media (max-width: 850px) {
     .web-wrapper {
       left: 3em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .web-wrapper {
+      top: 3em;
+      left: 1em; } }
   .web-wrapper:hover h2 {
     visibility: visible;
     color: #FFF;
@@ -1516,6 +1677,10 @@ p {
     .print-wrapper {
       top: 17em;
       left: 20em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .print-wrapper {
+      top: 10em;
+      left: 10em; } }
 
 .mix-wrapper {
   position: absolute;
@@ -1558,11 +1723,16 @@ p {
     .blog-wrapper {
       top: 5em;
       right: 8em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .blog-wrapper {
+      top: 2.25em;
+      right: 4em; } }
 
 footer {
+  position: absolute;
   left: 0;
-  bottom: 0;
-  height: 500px;
+  bottom: 10;
+  height: 97vh;
   width: 100%; }
 
 .who-zone {

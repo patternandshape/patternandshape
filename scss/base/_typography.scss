@@ -22,6 +22,9 @@ h3 {
   letter-spacing: 0.2em;
   font-size: 1.1em;
   color: $link-blue;
+  @media #{$mobile} {
+    font-size: 0.86em;
+  }
 }
 
 p {

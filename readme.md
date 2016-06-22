@@ -1,6 +1,6 @@
 # Pattern &amp; Shape
 
-June 21, 2016
+June 22, 2016
 
 ##### By Molly Curtin
 

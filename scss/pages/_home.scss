@@ -34,6 +34,9 @@
     @media #{$tablet} {
       width: 60%;
     }
+    @media #{$mobile} {
+      width: 50%;
+    }
   }
   #hand {
     &:hover {
@@ -44,6 +47,9 @@
     }
     @media #{$tablet} {
       width: 60%;
+    }
+    @media #{$mobile} {
+      width: 5.5em;
     }
   }
   #record {
@@ -77,6 +83,15 @@
       -o-transform: scale(0.05,1) skew(0deg,20deg);
       transform: scale(0.05,1) skew(0deg,20deg);
     }
+    @media #{$mobile} {
+      width: 3.5em;
+    }
+  }
+}
+
+#book {
+  @media #{$mobile} {
+      width: 60%;
   }
 }
 
@@ -86,7 +101,11 @@
   top: 6em;
   left: 6em;
   @media #{$tablet} {
-      left: 3em;
+    left: 3em;
+  }
+  @media #{$mobile} {
+    top: 3em;
+    left: 1em;
   }
   &:hover h2 {
     visibility: visible;
@@ -175,6 +194,10 @@
     top: 17em;
     left: 20em;
   }
+  @media #{$mobile} {
+    top: 10em;
+    left: 10em;
+  }
 }
 
 .mix-wrapper {
@@ -223,12 +246,16 @@
     top: 5em;
     right: 8em;
   }
+  @media #{$mobile} {
+    top: 2.25em;
+    right: 4em;
+  }
 }
 
 footer {
-    // position: absolute;
+    position: absolute;
     left: 0;
-    bottom: 0;
-    height: 500px;
+    bottom: 10;
+    height: 97vh;
     width: 100%;
 }
