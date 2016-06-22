@@ -354,7 +354,8 @@ th {
   padding: 0; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  position: relative; }
 
 *,
 *::before,
@@ -402,6 +403,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .main-gallery-zone {
+      margin-top: 4em;
+      align-items: center;
+      justify-content: center; } }
 
 @font-face {
   font-family: 'Montserrat Ultra Light';
@@ -422,6 +428,9 @@ h1, h2 {
   font-family: "Montserrat Light", sans-serif;
   font-size: 1.6em;
   letter-spacing: 0.14em; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    h1, h2 {
+      font-size: 1.3em; } }
 
 h2 {
   font-family: "Montserrat Regular", sans-serif;
@@ -445,10 +454,19 @@ p {
   align-items: baseline;
   border-bottom: 2px solid #FFF;
   margin-top: 1.2em; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .navbar {
+      flex-direction: column; } }
   .navbar h1 {
     flex: 1; }
   .navbar .social-icons .cv {
     font-size: 1.2em; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .navbar .social-icons {
+      display: none; } }
+
+.social-icons-bottom .cv {
+  font-size: 1.2em; }
 
 .gallery-wrapper {
   width: 78%;
@@ -469,6 +487,10 @@ p {
     box-shadow: 5px 5px #FFF;
     margin: 0 1.5em 3em;
     transition: 0.2s ease-in-out; }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .project-gallery img {
+        max-width: 220px;
+        max-height: 220px; } }
     .project-gallery img:hover {
       -ms-transform: scale(1.1, 1.1);
       -webkit-transform: scale(1.1, 1.1);
@@ -477,6 +499,10 @@ p {
   @media (max-width: 850px) {
     .project-gallery {
       margin-left: 2.7em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .project-gallery {
+      justify-content: center;
+      margin: 0 0 4em 4em; } }
 
 #project1,
 #project2,
@@ -663,6 +689,46 @@ p {
         #project17 .top-photo img,
         #project18 .top-photo img {
           height: 17em; } }
+      @media (min-width: 320px) and (max-width: 426px) {
+        #project1 .top-photo img,
+        #project2 .top-photo img,
+        #project3 .top-photo img,
+        #project4 .top-photo img,
+        #project5 .top-photo img,
+        #project6 .top-photo img,
+        #project7 .top-photo img,
+        #project8 .top-photo img,
+        #project9 .top-photo img,
+        #project10 .top-photo img,
+        #project11 .top-photo img,
+        #project12 .top-photo img,
+        #project13 .top-photo img,
+        #project14 .top-photo img,
+        #project15 .top-photo img,
+        #project16 .top-photo img,
+        #project17 .top-photo img,
+        #project18 .top-photo img {
+          height: 16em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project1 .top-photo .vc-mobile,
+      #project2 .top-photo .vc-mobile,
+      #project3 .top-photo .vc-mobile,
+      #project4 .top-photo .vc-mobile,
+      #project5 .top-photo .vc-mobile,
+      #project6 .top-photo .vc-mobile,
+      #project7 .top-photo .vc-mobile,
+      #project8 .top-photo .vc-mobile,
+      #project9 .top-photo .vc-mobile,
+      #project10 .top-photo .vc-mobile,
+      #project11 .top-photo .vc-mobile,
+      #project12 .top-photo .vc-mobile,
+      #project13 .top-photo .vc-mobile,
+      #project14 .top-photo .vc-mobile,
+      #project15 .top-photo .vc-mobile,
+      #project16 .top-photo .vc-mobile,
+      #project17 .top-photo .vc-mobile,
+      #project18 .top-photo .vc-mobile {
+        display: none; } }
   #project1 .middle-photo,
   #project2 .middle-photo,
   #project3 .middle-photo,
@@ -704,6 +770,27 @@ p {
       #project17 .middle-photo img,
       #project18 .middle-photo img {
         height: 15em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project1 .middle-photo img,
+      #project2 .middle-photo img,
+      #project3 .middle-photo img,
+      #project4 .middle-photo img,
+      #project5 .middle-photo img,
+      #project6 .middle-photo img,
+      #project7 .middle-photo img,
+      #project8 .middle-photo img,
+      #project9 .middle-photo img,
+      #project10 .middle-photo img,
+      #project11 .middle-photo img,
+      #project12 .middle-photo img,
+      #project13 .middle-photo img,
+      #project14 .middle-photo img,
+      #project15 .middle-photo img,
+      #project16 .middle-photo img,
+      #project17 .middle-photo img,
+      #project18 .middle-photo img {
+        height: 9em;
+        margin-bottom: -2em; } }
   #project1 .bottom-photo,
   #project2 .bottom-photo,
   #project3 .bottom-photo,
@@ -887,6 +974,27 @@ p {
       #project17 .description,
       #project18 .description {
         max-width: 95%; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project1 .description,
+      #project2 .description,
+      #project3 .description,
+      #project4 .description,
+      #project5 .description,
+      #project6 .description,
+      #project7 .description,
+      #project8 .description,
+      #project9 .description,
+      #project10 .description,
+      #project11 .description,
+      #project12 .description,
+      #project13 .description,
+      #project14 .description,
+      #project15 .description,
+      #project16 .description,
+      #project17 .description,
+      #project18 .description {
+        max-width: 100%;
+        margin-bottom: 3em; } }
   #project1 .title,
   #project2 .title,
   #project3 .title,
@@ -908,6 +1016,26 @@ p {
     font-family: "Montserrat Regular", sans-serif;
     font-size: 1.6em;
     letter-spacing: 0.14em; }
+    @media (min-width: 320px) and (max-width: 426px) {
+      #project1 .title,
+      #project2 .title,
+      #project3 .title,
+      #project4 .title,
+      #project5 .title,
+      #project6 .title,
+      #project7 .title,
+      #project8 .title,
+      #project9 .title,
+      #project10 .title,
+      #project11 .title,
+      #project12 .title,
+      #project13 .title,
+      #project14 .title,
+      #project15 .title,
+      #project16 .title,
+      #project17 .title,
+      #project18 .title {
+        font-size: 1.3em; } }
 
 @media (max-width: 1100px) {
   #project1 .bottom-photo img {
@@ -918,6 +1046,11 @@ p {
   #project1 .bottom-photo img {
     width: 75%;
     height: 75%; } }
+@media (min-width: 320px) and (max-width: 426px) {
+  #project1 .bottom-photo img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3em; } }
 @media (max-width: 1100px) {
   #project1 .bottom-photo {
     flex-wrap: wrap;
@@ -1189,6 +1322,9 @@ p {
   .sidebar .print-list li:hover {
     color: #FF3800;
     cursor: pointer; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .sidebar {
+      display: none; } }
 
 @keyframes bounce {
   0%, 20%, 60%, 100% {
@@ -1200,21 +1336,39 @@ p {
   80% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px); } }
-.social-icons {
+.social-icons,
+.social-icons-bottom {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 12em; }
-  .social-icons .fa-github {
+  .social-icons .fa-github,
+  .social-icons-bottom .fa-github {
     font-size: 1.4em; }
-    .social-icons .fa-github:hover {
+    .social-icons .fa-github:hover,
+    .social-icons-bottom .fa-github:hover {
       color: #E4B849; }
-  .social-icons .fa-linkedin-square {
+  .social-icons .fa-linkedin-square,
+  .social-icons-bottom .fa-linkedin-square {
     font-size: 1.4em; }
-    .social-icons .fa-linkedin-square:hover {
+    .social-icons .fa-linkedin-square:hover,
+    .social-icons-bottom .fa-linkedin-square:hover {
       color: #E4B849; }
-  .social-icons .mail:hover {
+  .social-icons .mail:hover,
+  .social-icons-bottom .mail:hover {
     animation: bounce 1s; }
+
+.social-icons-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  visibility: hidden; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .social-icons-bottom {
+      visibility: visible;
+      justify-content: space-around;
+      margin: 0 auto; } }
 
 @-webkit-keyframes wiggle {
   0% {
@@ -1405,6 +1559,12 @@ p {
       top: 5em;
       right: 8em; } }
 
+footer {
+  left: 0;
+  bottom: 0;
+  height: 500px;
+  width: 100%; }
+
 .who-zone {
   display: flex;
   justify-content: space-between;
@@ -1418,6 +1578,11 @@ p {
         width: 75%;
         height: 75%;
         margin-bottom: 3em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .who-zone img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2em; } }
     .who-zone img:hover {
       transform: rotate(720deg); }
   .who-zone h1:nth-child(even) {

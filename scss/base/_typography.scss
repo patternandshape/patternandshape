@@ -6,6 +6,9 @@ h1, h2, {
   font-family: $mont-light-stack;
   font-size: 1.6em;
   letter-spacing: 0.14em;
+  @media #{$mobile} {
+    font-size: 1.3em;
+  }
 }
 
 h2 {

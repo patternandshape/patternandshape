@@ -20,6 +20,10 @@
     box-shadow: 5px 5px $white;
     margin: 0 1.5em 3em;
     transition: 0.2s ease-in-out;
+    @media #{$mobile} {
+      max-width: 220px;
+      max-height: 220px;
+    }
     &:hover {
       -ms-transform: scale(1.10,1.10);
       -webkit-transform: scale(1.10,1.10);
@@ -27,9 +31,13 @@
       cursor: pointer;
     }
   }
-  @media #{$tablet} {
+    @media #{$tablet} {
       margin-left: 2.7em;
-  }
+    }
+    @media #{$mobile} {
+      justify-content: center;
+      margin: 0 0 4em 4em;
+    }
 }
 
 // layouts for each project //
@@ -86,6 +94,14 @@
       @media #{$tablet} {
         height: 17em;
       }
+      @media #{$mobile} {
+        height: 16em;
+      }
+    }
+    .vc-mobile {
+      @media #{$mobile} {
+        display: none;
+      }
     }
   }
   .middle-photo {
@@ -94,8 +110,12 @@
     margin-bottom: 5em;
     img {
       @media #{$tablet} {
-      height: 15em;
-    }
+        height: 15em;
+      }
+      @media #{$mobile} {
+        height: 9em;
+        margin-bottom: -2em;
+      }
     }
   }
   .bottom-photo {
@@ -132,11 +152,18 @@
     @media #{$tablet} {
       max-width: 95%;
     }
+    @media #{$mobile} {
+      max-width: 100%;
+      margin-bottom: 3em;
+    }
   }
   .title {
     font-family: $mont-reg-stack;
     font-size: 1.6em;
     letter-spacing: 0.14em;
+    @media #{$mobile} {
+      font-size: 1.3em;
+  }
   }
 }
 
@@ -151,6 +178,11 @@
       @media #{$tablet} {
         width: 75%;
         height: 75%;
+      }
+      @media #{$mobile} {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3em;
       }
     }
     @media #{$laptop} {

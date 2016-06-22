@@ -7,12 +7,24 @@
   align-items:baseline;
   border-bottom: 2px solid $white;
   margin-top: 1.2em;
+  @media #{$mobile} {
+      flex-direction: column;
+  }
   h1 {
     flex: 1;
   }
-.social-icons {
+.social-icons{
   .cv {
     font-size: 1.2em;
   }
+  @media #{$mobile} {
+      display: none;
+  }
 }
+}
+
+.social-icons-bottom {
+  .cv {
+    font-size: 1.2em;
+  }
 }

@@ -17,7 +17,8 @@
 
 //top menu icons //
 
-.social-icons {
+.social-icons,
+.social-icons-bottom {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
@@ -39,4 +40,17 @@
 	     animation: bounce 1s;
 	  }
 	}
+}
+
+.social-icons-bottom {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	visibility: hidden;
+	@media #{$mobile} {
+	visibility: visible;
+	justify-content: space-around;
+	margin: 0 auto;
+  }
 }

@@ -26,9 +26,9 @@ $mont-lightest-stack: 'Montserrat Ultra Light', sans-serif;
 
 /// Breakpoints
 
-  $mobile: '(min-width: 320px)';
+  $mobile: '(min-width: 320px) and (max-width: 426px)';
+
   $tablet: '(max-width: 850px)';
-  
   $laptop: '(max-width: 1100px)';
   $desktop: '(min-width: 1725px)';
 
