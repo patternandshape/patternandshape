@@ -42,18 +42,27 @@
 	}
 }
 
-// footer {
-// 	position: absolute;
-//     left: 0;
-//     bottom: 0;
-//     height: 50px;
-//     margin-bottom: -50px;
-//     width: 100%;
-// 	visibility: hidden;
-// 	@media #{$mobile} {
-// 	visibility: visible;
-// 	justify-content: space-around;
-// 	margin: 0 auto;
-// 	padding-bottom: 3.5em
-//   }
-// }
+
+// back to top arrow //
+
+.fa-long-arrow-up {
+	display: block;
+	font-size: 5em!important;
+	visibility: hidden;
+	margin: 0.5em 1.5em -2em 1.5em;
+	@media #{$mobile} {
+		visibility: visible;
+  }
+}
+
+//back arrow //
+
+.fa-long-arrow-left {
+	display: block;
+	font-size: 5em!important;
+	visibility: hidden;
+	margin: -1em 2em -2em 1em;
+	@media #{$mobile} {
+		visibility: visible;
+  }
+}
