@@ -29,7 +29,7 @@
       opacity: 0.2;
     }
     @media #{$laptop} {
-    width: 80%;
+      width: 80%;
     }
     @media #{$tablet} {
       width: 60%;
@@ -38,6 +38,7 @@
       width: 50%;
     }
   }
+
   #hand {
     &:hover {
       -webkit-animation: wiggle 0.5s infinite;
@@ -49,9 +50,10 @@
       width: 60%;
     }
     @media #{$mobile} {
-      width: 5.5em;
+      width: 7em;
     }
   }
+
   #record {
     transition-duration: 7s;
     &:hover {
@@ -91,7 +93,7 @@
 
 #book {
   @media #{$mobile} {
-      width: 60%;
+      width: 70%;
   }
 }
 
@@ -105,7 +107,7 @@
   }
   @media #{$mobile} {
     top: 3em;
-    left: 1em;
+    left: 2em;
   }
   &:hover h2 {
     visibility: visible;
@@ -129,6 +131,11 @@
       top: 1em;
       left: 2.4em;
     }
+    @media #{$mobile} {
+      font-size: 1.25em;
+      top: 0.9em;
+      left: 2.3em;
+    }
   }
 }
 
@@ -147,6 +154,10 @@
     font-size: 1.6em;
     visibility: hidden;
     color: $white;
+    @media #{$mobile} {
+      font-size: 1.5em;
+      top: -2.5em;
+    }
   }
   @media #{$laptop} {
     left: 8em;
@@ -154,6 +165,10 @@
   @media #{$tablet} {
     top: 35em;
     left: 4em;
+  }
+  @media #{$mobile} {
+    top: 21em;
+    left: 3em;
   }
 }
 
@@ -182,6 +197,11 @@
       top: 3.77em;
       left: 2.4em;
     }
+    @media #{$mobile} {
+      font-size: 1.5em;
+      top: 3.3em;
+      left: 2em;
+    }
   }
   @media #{$desktop} {
     left: 40em;
@@ -195,8 +215,8 @@
     left: 20em;
   }
   @media #{$mobile} {
-    top: 10em;
-    left: 10em;
+    top: 8em;
+    left: 12em;
   }
 }
 
@@ -215,6 +235,9 @@
     visibility: hidden;
     font-size: 1.5em;
     color: $mustard;
+    @media #{$mobile} {
+      font-size: 1.5em;
+    }
   }
   @media #{$laptop} {
     top: 37em;
@@ -222,6 +245,10 @@
   }
   @media #{$tablet} {
     top: 39em;
+  }
+  @media #{$mobile} {
+    top: 33em;
+    left: 4em;
   }
 }
 
@@ -241,21 +268,29 @@
     transition:2s ease-in;
     font-size: 1.5em;
     color: $white;
+    @media #{$mobile} {
+      font-size: 0.9em;
+    }
   }
   @media #{$tablet} {
     top: 5em;
     right: 8em;
   }
   @media #{$mobile} {
-    top: 2.25em;
-    right: 4em;
+    top: 24em;
+    right: 6em;
   }
 }
 
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 10;
-    height: 97vh;
-    width: 100%;
+.social-icons-bottom {
+   position: absolute;
+   top: 84vh; 
+   justify-content: space-around;
+   visibility: hidden;
+   width: 100%;
+    @media #{$mobile} {
+    visibility: visible;
+  }
 }
+
+

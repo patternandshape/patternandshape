@@ -42,16 +42,18 @@
 	}
 }
 
-.social-icons-bottom {
-	position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-	visibility: hidden;
-	@media #{$mobile} {
-	visibility: visible;
-	justify-content: space-around;
-	margin: 0 auto;
-	padding-bottom: 2em
-  }
-}
+// footer {
+// 	position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     height: 50px;
+//     margin-bottom: -50px;
+//     width: 100%;
+// 	visibility: hidden;
+// 	@media #{$mobile} {
+// 	visibility: visible;
+// 	justify-content: space-around;
+// 	margin: 0 auto;
+// 	padding-bottom: 3.5em
+//   }
+// }

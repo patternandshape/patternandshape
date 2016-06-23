@@ -355,7 +355,8 @@ th {
 
 html {
   box-sizing: border-box;
-  position: relative; }
+  position: relative;
+  min-height: 100%; }
 
 *,
 *::before,
@@ -382,7 +383,10 @@ body {
   background: #0F0F0F;
   font-family: "Montserrat Light", sans-serif;
   color: #FFF;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px; }
 
 .container {
   width: 90%;
@@ -1501,19 +1505,6 @@ p {
   .social-icons-bottom .mail:hover {
     animation: bounce 1s; }
 
-.social-icons-bottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  visibility: hidden; }
-  @media (min-width: 320px) and (max-width: 426px) {
-    .social-icons-bottom {
-      visibility: visible;
-      justify-content: space-around;
-      margin: 0 auto;
-      padding-bottom: 2em; } }
-
 @-webkit-keyframes wiggle {
   0% {
     -webkit-transform: rotate(6deg); }
@@ -1549,7 +1540,7 @@ p {
       width: 60%; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .main-zone #hand {
-      width: 5.5em; } }
+      width: 7em; } }
   .main-zone #record {
     transition-duration: 7s; }
     .main-zone #record:hover {
@@ -1584,7 +1575,7 @@ p {
 
 @media (min-width: 320px) and (max-width: 426px) {
   #book {
-    width: 60%; } }
+    width: 70%; } }
 
 .web-wrapper {
   max-width: 500px;
@@ -1597,7 +1588,7 @@ p {
   @media (min-width: 320px) and (max-width: 426px) {
     .web-wrapper {
       top: 3em;
-      left: 1em; } }
+      left: 2em; } }
   .web-wrapper:hover h2 {
     visibility: visible;
     color: #FFF;
@@ -1619,6 +1610,11 @@ p {
         font-size: 2.15em;
         top: 1em;
         left: 2.4em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .web-wrapper h2 {
+        font-size: 1.25em;
+        top: 0.9em;
+        left: 2.3em; } }
 
 .who-wrapper {
   max-width: 135px;
@@ -1634,6 +1630,10 @@ p {
     font-size: 1.6em;
     visibility: hidden;
     color: #FFF; }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .who-wrapper h2 {
+        font-size: 1.5em;
+        top: -2.5em; } }
   @media (max-width: 1100px) {
     .who-wrapper {
       left: 8em; } }
@@ -1641,6 +1641,10 @@ p {
     .who-wrapper {
       top: 35em;
       left: 4em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .who-wrapper {
+      top: 21em;
+      left: 3em; } }
 
 .print-wrapper {
   max-width: 340px;
@@ -1666,6 +1670,11 @@ p {
         font-size: 2.1em;
         top: 3.77em;
         left: 2.4em; } }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .print-wrapper h2 {
+        font-size: 1.5em;
+        top: 3.3em;
+        left: 2em; } }
   @media (min-width: 1725px) {
     .print-wrapper {
       left: 40em; } }
@@ -1679,8 +1688,8 @@ p {
       left: 20em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .print-wrapper {
-      top: 10em;
-      left: 10em; } }
+      top: 8em;
+      left: 12em; } }
 
 .mix-wrapper {
   position: absolute;
@@ -1696,6 +1705,9 @@ p {
     visibility: hidden;
     font-size: 1.5em;
     color: #E4B849; }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .mix-wrapper h2 {
+        font-size: 1.5em; } }
   @media (max-width: 1100px) {
     .mix-wrapper {
       top: 37em;
@@ -1703,6 +1715,10 @@ p {
   @media (max-width: 850px) {
     .mix-wrapper {
       top: 39em; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .mix-wrapper {
+      top: 33em;
+      left: 4em; } }
 
 .blog-wrapper {
   max-width: 100px;
@@ -1719,21 +1735,27 @@ p {
     transition: 2s ease-in;
     font-size: 1.5em;
     color: #FFF; }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .blog-wrapper h2 {
+        font-size: 0.9em; } }
   @media (max-width: 850px) {
     .blog-wrapper {
       top: 5em;
       right: 8em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .blog-wrapper {
-      top: 2.25em;
-      right: 4em; } }
+      top: 24em;
+      right: 6em; } }
 
-footer {
+.social-icons-bottom {
   position: absolute;
-  left: 0;
-  bottom: 10;
-  height: 97vh;
+  top: 84vh;
+  justify-content: space-around;
+  visibility: hidden;
   width: 100%; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .social-icons-bottom {
+      visibility: visible; } }
 
 .who-zone {
   display: flex;
