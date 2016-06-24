@@ -1738,7 +1738,7 @@ p {
   @media (min-width: 320px) and (max-width: 426px) {
     .print-wrapper {
       top: 5.5em;
-      left: 15em; } }
+      left: 14em; } }
 
 .mix-wrapper {
   position: absolute;
@@ -1800,8 +1800,8 @@ p {
 
 .social-icons-bottom {
   position: absolute;
-  padding-bottom: 20px;
-  top: 86vh;
+  padding-bottom: 30px;
+  top: 85vh;
   justify-content: space-around;
   visibility: hidden;
   width: 100%; }
@@ -1841,6 +1841,6 @@ p {
   @media (min-width: 320px) and (max-width: 426px) {
     .who-zone {
       justify-content: center;
-      margin-top: -2em; } }
+      margin-top: -1em; } }
 
 /*# sourceMappingURL=main.css.map */
