@@ -50,7 +50,7 @@
       width: 60%;
     }
     @media #{$mobile} {
-      width: 7em;
+      width: 6em;
     }
   }
 
@@ -58,6 +58,9 @@
     transition-duration: 7s;
     &:hover {
       transform: rotate(720deg);
+    }
+    @media #{$mobile} {
+      width: 50%;
     }
   }
   #window {
@@ -134,7 +137,7 @@
     @media #{$mobile} {
       font-size: 1.25em;
       top: 1em;
-      left: 2.5em;
+      left: 2.3em;
     }
   }
 }
@@ -155,7 +158,7 @@
     visibility: hidden;
     color: $white;
     @media #{$mobile} {
-      font-size: 1.5em;
+      font-size: 1.3em;
       top: -2.5em;
     }
   }
@@ -167,7 +170,7 @@
     left: 4em;
   }
   @media #{$mobile} {
-    top: 21em;
+    top: 16em;
     left: 3em;
   }
 }
@@ -198,9 +201,9 @@
       left: 2.4em;
     }
     @media #{$mobile} {
-      font-size: 1.5em;
-      top: 3.3em;
-      left: 2em;
+      font-size: 1.3em;
+      top: 3em;
+      left: 2.2em;
     }
   }
   @media #{$desktop} {
@@ -215,7 +218,7 @@
     left: 20em;
   }
   @media #{$mobile} {
-    top: 9em;
+    top: 7em;
     left: 12em;
   }
 }
@@ -236,7 +239,9 @@
     font-size: 1.5em;
     color: $mustard;
     @media #{$mobile} {
-      font-size: 1.5em;
+      font-size: 1.3em;
+      top: -0.25em;
+      left: 3.5em;
     }
   }
   @media #{$laptop} {
@@ -247,7 +252,7 @@
     top: 39em;
   }
   @media #{$mobile} {
-    top: 33em;
+    top: 26em;
     left: 4em;
   }
 }
@@ -277,14 +282,14 @@
     right: 8em;
   }
   @media #{$mobile} {
-    top: 24em;
+    top: 19em;
     right: 6em;
   }
 }
 
 .social-icons-bottom {
    position: absolute;
-   top: 84vh; 
+   top: 88vh; 
    justify-content: space-around;
    visibility: hidden;
    width: 100%;

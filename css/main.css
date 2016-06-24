@@ -1585,11 +1585,14 @@ p {
       width: 60%; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .main-zone #hand {
-      width: 7em; } }
+      width: 6em; } }
   .main-zone #record {
     transition-duration: 7s; }
     .main-zone #record:hover {
       transform: rotate(720deg); }
+    @media (min-width: 320px) and (max-width: 426px) {
+      .main-zone #record {
+        width: 50%; } }
   .main-zone #window {
     position: absolute;
     z-index: 9999;
@@ -1659,7 +1662,7 @@ p {
       .web-wrapper h2 {
         font-size: 1.25em;
         top: 1em;
-        left: 2.5em; } }
+        left: 2.3em; } }
 
 .who-wrapper {
   max-width: 135px;
@@ -1677,7 +1680,7 @@ p {
     color: #FFF; }
     @media (min-width: 320px) and (max-width: 426px) {
       .who-wrapper h2 {
-        font-size: 1.5em;
+        font-size: 1.3em;
         top: -2.5em; } }
   @media (max-width: 1100px) {
     .who-wrapper {
@@ -1688,7 +1691,7 @@ p {
       left: 4em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .who-wrapper {
-      top: 21em;
+      top: 16em;
       left: 3em; } }
 
 .print-wrapper {
@@ -1717,9 +1720,9 @@ p {
         left: 2.4em; } }
     @media (min-width: 320px) and (max-width: 426px) {
       .print-wrapper h2 {
-        font-size: 1.5em;
-        top: 3.3em;
-        left: 2em; } }
+        font-size: 1.3em;
+        top: 3em;
+        left: 2.2em; } }
   @media (min-width: 1725px) {
     .print-wrapper {
       left: 40em; } }
@@ -1733,7 +1736,7 @@ p {
       left: 20em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .print-wrapper {
-      top: 9em;
+      top: 7em;
       left: 12em; } }
 
 .mix-wrapper {
@@ -1752,7 +1755,9 @@ p {
     color: #E4B849; }
     @media (min-width: 320px) and (max-width: 426px) {
       .mix-wrapper h2 {
-        font-size: 1.5em; } }
+        font-size: 1.3em;
+        top: -0.25em;
+        left: 3.5em; } }
   @media (max-width: 1100px) {
     .mix-wrapper {
       top: 37em;
@@ -1762,7 +1767,7 @@ p {
       top: 39em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .mix-wrapper {
-      top: 33em;
+      top: 26em;
       left: 4em; } }
 
 .blog-wrapper {
@@ -1789,12 +1794,12 @@ p {
       right: 8em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .blog-wrapper {
-      top: 24em;
+      top: 19em;
       right: 6em; } }
 
 .social-icons-bottom {
   position: absolute;
-  top: 84vh;
+  top: 88vh;
   justify-content: space-around;
   visibility: hidden;
   width: 100%; }
