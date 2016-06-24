@@ -18,7 +18,7 @@
     @media #{$mobile} {
       width: 90%;
       height: 90%;
-      margin-bottom: 2em;
+      margin-bottom: 1em;
     }
     &:hover {
       transform: rotate(720deg);
@@ -38,5 +38,6 @@
   }
   @media #{$mobile} {
       justify-content: center;
+      margin-top: -1em;
   }
 }

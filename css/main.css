@@ -436,7 +436,7 @@ h1, h2 {
   letter-spacing: 0.14em; }
   @media (min-width: 320px) and (max-width: 426px) {
     h1, h2 {
-      font-size: 1.5em; } }
+      font-size: 1.3em; } }
 
 h2 {
   font-family: "Montserrat Regular", sans-serif;
@@ -1800,7 +1800,7 @@ p {
 
 .social-icons-bottom {
   position: absolute;
-  top: 77vh;
+  top: 78vh;
   justify-content: space-around;
   visibility: hidden;
   width: 100%; }
@@ -1825,7 +1825,7 @@ p {
       .who-zone img {
         width: 90%;
         height: 90%;
-        margin-bottom: 2em; } }
+        margin-bottom: 1em; } }
     .who-zone img:hover {
       transform: rotate(720deg); }
   .who-zone h1:nth-child(even) {
@@ -1839,6 +1839,7 @@ p {
       margin-top: 0; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .who-zone {
-      justify-content: center; } }
+      justify-content: center;
+      margin-top: -1em; } }
 
 /*# sourceMappingURL=main.css.map */
