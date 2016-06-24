@@ -436,7 +436,7 @@ h1, h2 {
   letter-spacing: 0.14em; }
   @media (min-width: 320px) and (max-width: 426px) {
     h1, h2 {
-      font-size: 1.3em; } }
+      font-size: 1.5em; } }
 
 h2 {
   font-family: "Montserrat Regular", sans-serif;
@@ -450,7 +450,7 @@ h3 {
   color: #6181F2; }
   @media (min-width: 320px) and (max-width: 426px) {
     h3 {
-      font-size: 0.95em; } }
+      font-size: 1em; } }
 
 p {
   max-width: 94%; }
@@ -468,7 +468,8 @@ p {
   margin-top: 1.2em; }
   @media (min-width: 320px) and (max-width: 426px) {
     .navbar {
-      flex-direction: column; } }
+      flex-direction: column;
+      margin-top: 0.5em; } }
   .navbar h1 {
     flex: 1; }
   .navbar .social-icons .cv {
@@ -504,8 +505,8 @@ p {
     transition: 0.2s ease-in-out; }
     @media (min-width: 320px) and (max-width: 426px) {
       .project-gallery img {
-        min-width: 230px;
-        min-height: 230px; } }
+        min-width: 240px;
+        min-height: 240px; } }
     .project-gallery img:hover {
       -ms-transform: scale(1.1, 1.1);
       -webkit-transform: scale(1.1, 1.1);
@@ -744,7 +745,7 @@ p {
         #project16 .top-photo img,
         #project17 .top-photo img,
         #project18 .top-photo img {
-          height: 17em; } }
+          height: 17.5em; } }
     @media (min-width: 320px) and (max-width: 426px) {
       #project1 .top-photo .vc-mobile,
       #project2 .top-photo .vc-mobile,
@@ -825,7 +826,7 @@ p {
       #project16 .middle-photo img,
       #project17 .middle-photo img,
       #project18 .middle-photo img {
-        height: 10em;
+        height: 10.5em;
         margin-bottom: -2em; } }
   #project1 .bottom-photo,
   #project2 .bottom-photo,
@@ -1050,7 +1051,7 @@ p {
       #project16 .description,
       #project17 .description,
       #project18 .description {
-        font-size: 1em;
+        font-size: 1.1em;
         max-width: 100%;
         margin-bottom: 3em; } }
   #project1 .title,
@@ -1158,7 +1159,7 @@ p {
     height: 16.5em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project6 .top-photo img {
-    height: 10.4em; } }
+    height: 10.9em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project6 .bottom-photo {
     flex-wrap: wrap;
@@ -1178,7 +1179,7 @@ p {
         height: 14em; } }
     @media (min-width: 320px) and (max-width: 426px) {
       #project8 .top-photo img {
-        height: 11.9em; } }
+        height: 12.4em; } }
 
 @media (max-width: 1100px) {
   #project2 .top-photo img,
@@ -1206,7 +1207,7 @@ p {
   #project7 .top-photo img,
   #project9 .top-photo img,
   #project11 .top-photo img {
-    height: 11.25em; } }
+    height: 11.75em; } }
 
 @media (min-width: 320px) and (max-width: 426px) {
   #project9 .title {
@@ -1232,7 +1233,7 @@ p {
     height: 20em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project12 .top-photo img {
-    height: 12em; } }
+    height: 12.5em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project12 .title {
     font-size: 1.2em; } }
@@ -1241,7 +1242,7 @@ p {
     height: 29em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project12 .middle-photo img {
-    height: 25em;
+    height: 27em;
     margin-bottom: 2em; } }
 
 @media (max-width: 1100px) {
@@ -1253,9 +1254,9 @@ p {
 @media (max-width: 850px) {
   #project13 .top-photo img {
     height: 15em; } }
-@media (max-width: 850px) {
+@media (min-width: 320px) and (max-width: 426px) {
   #project13 .top-photo img {
-    height: 17em; } }
+    height: 18em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project13 .ladies, #project13 .shop {
     display: none; } }
@@ -1276,7 +1277,7 @@ p {
         height: 12em; } }
     @media (min-width: 320px) and (max-width: 426px) {
       #project13 .middle-photo img {
-        height: 17em;
+        height: 18em;
         margin-bottom: 0.5em; } }
   @media (min-width: 1725px) {
     #project13 .middle-photo {
@@ -1291,7 +1292,7 @@ p {
     height: 25em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project14 .top-photo img {
-    height: 20em; } }
+    height: 23em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project14 p.description {
     margin-bottom: 6em; } }
@@ -1306,7 +1307,7 @@ p {
       height: 11.5em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     #project15 .top-photo img {
-      height: 7em; } }
+      height: 7.4em; } }
 #project15 .middle-photo {
   display: flex;
   justify-content: space-between; }
@@ -1341,7 +1342,7 @@ p {
     height: 15.5em; } }
 @media (min-width: 320px) and (max-width: 426px) {
   #project16 .top-photo img {
-    height: 9.25em; } }
+    height: 9.75em; } }
 #project16 .middle-photo {
   width: 97%;
   display: flex;
@@ -1662,7 +1663,7 @@ p {
       .web-wrapper h2 {
         font-size: 1.25em;
         top: 1em;
-        left: 2.3em; } }
+        left: 2.5em; } }
 
 .who-wrapper {
   max-width: 135px;
@@ -1691,7 +1692,7 @@ p {
       left: 4em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .who-wrapper {
-      top: 16em;
+      top: 15.5em;
       left: 3em; } }
 
 .print-wrapper {
@@ -1736,8 +1737,8 @@ p {
       left: 20em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .print-wrapper {
-      top: 7em;
-      left: 12em; } }
+      top: 5.5em;
+      left: 14em; } }
 
 .mix-wrapper {
   position: absolute;
@@ -1767,8 +1768,8 @@ p {
       top: 39em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .mix-wrapper {
-      top: 26em;
-      left: 4em; } }
+      top: 24em;
+      left: 5em; } }
 
 .blog-wrapper {
   max-width: 100px;
@@ -1794,12 +1795,12 @@ p {
       right: 8em; } }
   @media (min-width: 320px) and (max-width: 426px) {
     .blog-wrapper {
-      top: 19em;
+      top: 17em;
       right: 6em; } }
 
 .social-icons-bottom {
   position: absolute;
-  top: 88vh;
+  top: 77vh;
   justify-content: space-around;
   visibility: hidden;
   width: 100%; }
@@ -1810,7 +1811,7 @@ p {
 .who-zone {
   display: flex;
   justify-content: space-between;
-  margin: 3em 0; }
+  margin: 3em 0 0 0; }
   .who-zone img {
     width: 50%;
     height: 50%;
@@ -1836,5 +1837,8 @@ p {
     .who-zone {
       flex-wrap: wrap;
       margin-top: 0; } }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .who-zone {
+      justify-content: center; } }
 
 /*# sourceMappingURL=main.css.map */

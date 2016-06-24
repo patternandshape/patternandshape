@@ -7,7 +7,7 @@ h1, h2, {
   font-size: 1.6em;
   letter-spacing: 0.14em;
   @media #{$mobile} {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 }
 
@@ -23,7 +23,7 @@ h3 {
   font-size: 1.1em;
   color: $link-blue;
   @media #{$mobile} {
-    font-size: 0.95em;
+    font-size: 1em;
   }
 }
 

@@ -24,8 +24,8 @@
     margin: 0 1.5em 3em;
     transition: 0.2s ease-in-out;
     @media #{$mobile} {
-      min-width: 230px;
-      min-height: 230px;
+      min-width: 240px;
+      min-height: 240px;
     }
     &:hover {
       -ms-transform: scale(1.10,1.10);
@@ -102,7 +102,7 @@
         height: 17em;
       }
       @media #{$mobile} {
-        height: 17em;
+        height: 17.5em;
       }
     }
     .vc-mobile {
@@ -120,7 +120,7 @@
         height: 15em;
       }
       @media #{$mobile} {
-        height: 10em;
+        height: 10.5em;
         margin-bottom: -2em;
       }
     }
@@ -167,7 +167,7 @@
       max-width: 95%;
     }
     @media #{$mobile} {
-      font-size: 1em;
+      font-size: 1.1em;
       max-width: 100%;
       margin-bottom: 3em;
     }
@@ -261,7 +261,7 @@
         height: 16.5em;
       }
       @media #{$mobile} {
-        height: 10.4em;
+        height: 10.9em;
       }
     }
   }
@@ -287,7 +287,7 @@
         height: 14em;
       }
       @media #{$mobile} {
-        height: 11.9em;
+        height: 12.4em;
       }
     }
   }
@@ -309,7 +309,7 @@
         height: 18em;
       }
       @media #{$mobile} {
-        height: 11.25em;
+        height: 11.75em;
       }
     }
   }
@@ -356,7 +356,7 @@
         height: 20em;
       }
       @media #{$mobile} {
-        height: 12em;
+        height: 12.5em;
       }
     }
   }
@@ -371,7 +371,7 @@
         height: 29em;
       }
       @media #{$mobile} {
-        height: 25em;
+        height: 27em;
         margin-bottom: 2em;
       }
     }
@@ -390,8 +390,8 @@
       @media #{$tablet} {
         height: 15em;
       }
-      @media #{$tablet} {
-        height: 17em;
+      @media #{$mobile} {
+        height: 18em;
       }
     }
   }
@@ -419,7 +419,7 @@
         height: 12em;
       }
       @media #{$mobile} {
-        height: 17em;
+        height: 18em;
         margin-bottom: 0.5em;
       }
     }
@@ -442,7 +442,7 @@
         height: 25em;
       }
       @media #{$mobile} {
-        height: 20em;
+        height: 23em;
       }
     }
   }
@@ -464,7 +464,7 @@
         height: 11.5em;
       }
     @media #{$mobile} {
-        height: 7em;
+        height: 7.4em;
     }
     }
   }
@@ -508,7 +508,7 @@
         height: 15.5em;
       }
       @media #{$mobile} {
-        height: 9.25em;
+        height: 9.75em;
       }
     }
   }

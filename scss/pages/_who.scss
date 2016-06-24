@@ -5,7 +5,7 @@
 .who-zone {
   display: flex;
   justify-content: space-between;
-  margin: 3em 0;
+  margin: 3em 0 0 0;
   img {
     width: 50%;
     height: 50%;
@@ -35,5 +35,8 @@
   @media #{$tablet} {
       flex-wrap: wrap;
       margin-top: 0;
+  }
+  @media #{$mobile} {
+      justify-content: center;
   }
 }

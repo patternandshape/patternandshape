@@ -9,6 +9,7 @@
   margin-top: 1.2em;
   @media #{$mobile} {
       flex-direction: column;
+      margin-top: 0.5em;
   }
   h1 {
     flex: 1;

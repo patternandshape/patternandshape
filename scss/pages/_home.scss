@@ -137,7 +137,7 @@
     @media #{$mobile} {
       font-size: 1.25em;
       top: 1em;
-      left: 2.3em;
+      left: 2.5em;
     }
   }
 }
@@ -170,7 +170,7 @@
     left: 4em;
   }
   @media #{$mobile} {
-    top: 16em;
+    top: 15.5em;
     left: 3em;
   }
 }
@@ -218,8 +218,8 @@
     left: 20em;
   }
   @media #{$mobile} {
-    top: 7em;
-    left: 12em;
+    top: 5.5em;
+    left: 14em;
   }
 }
 
@@ -252,8 +252,8 @@
     top: 39em;
   }
   @media #{$mobile} {
-    top: 26em;
-    left: 4em;
+    top: 24em;
+    left: 5em;
   }
 }
 
@@ -282,14 +282,14 @@
     right: 8em;
   }
   @media #{$mobile} {
-    top: 19em;
+    top: 17em;
     right: 6em;
   }
 }
 
 .social-icons-bottom {
    position: absolute;
-   top: 88vh; 
+   top: 77vh; 
    justify-content: space-around;
    visibility: hidden;
    width: 100%;
