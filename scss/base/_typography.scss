@@ -23,12 +23,15 @@ h3 {
   font-size: 1.1em;
   color: $link-blue;
   @media #{$mobile} {
-    font-size: 0.86em;
+    font-size: 0.95em;
   }
 }
 
 p {
   max-width: 94%;
+  @media #{$mobile} {
+    width: 100%;
+  }
 }
 
 // instances of 'fi' where the kerning is too tight //

@@ -7,6 +7,9 @@
   @media #{$laptop} {
     width: 80%;
   }
+  @media #{$mobile} {
+    width: 90%;
+  }
 }
 
 .project-gallery {
@@ -21,8 +24,8 @@
     margin: 0 1.5em 3em;
     transition: 0.2s ease-in-out;
     @media #{$mobile} {
-      min-width: 220px;
-      min-height: 220px;
+      min-width: 230px;
+      min-height: 230px;
     }
     &:hover {
       -ms-transform: scale(1.10,1.10);
@@ -35,7 +38,8 @@
       margin-left: 2.7em;
     }
     @media #{$mobile} {
-      margin: 0 0 3em 0;
+      margin: 0 auto;
+      width: 100%;
     }
 }
 
@@ -70,6 +74,7 @@
   }
   @media #{$mobile} {
     margin: 0 auto;
+    max-width: 100%;
     }
   .title-link {
     position: relative;
@@ -97,7 +102,7 @@
         height: 17em;
       }
       @media #{$mobile} {
-        height: 15em;
+        height: 17em;
       }
     }
     .vc-mobile {
@@ -115,7 +120,7 @@
         height: 15em;
       }
       @media #{$mobile} {
-        height: 9em;
+        height: 10em;
         margin-bottom: -2em;
       }
     }
@@ -162,6 +167,7 @@
       max-width: 95%;
     }
     @media #{$mobile} {
+      font-size: 1em;
       max-width: 100%;
       margin-bottom: 3em;
     }
@@ -189,8 +195,8 @@
         height: 75%;
       }
       @media #{$mobile} {
-        width: 100%;
-        height: 100%;
+        width: 105%;
+        height: 105%;
         margin-bottom: 3em;
       }
     }
@@ -222,7 +228,7 @@
        min-width: 14em;
       }
       @media #{$mobile} {
-        min-width: 10em;
+        min-width: 12em;
         margin-bottom: 3em;
       }
     }
@@ -233,7 +239,7 @@
     margin-bottom: 5em; 
   }
   @media #{$mobile} {
-    min-width: 16em;
+    min-width: 17em;
     margin-bottom: 5em; 
   }
   }
@@ -255,7 +261,7 @@
         height: 16.5em;
       }
       @media #{$mobile} {
-        height: 9.4em;
+        height: 10.4em;
       }
     }
   }
@@ -281,7 +287,7 @@
         height: 14em;
       }
       @media #{$mobile} {
-        height: 11em;
+        height: 11.9em;
       }
     }
   }
@@ -303,7 +309,7 @@
         height: 18em;
       }
       @media #{$mobile} {
-        height: 10.25em;
+        height: 11.25em;
       }
     }
   }
@@ -326,7 +332,7 @@
         height: 19em;
       }
       @media #{$mobile} {
-        height: 11em;
+        height: 12em;
       }
     }
   }
@@ -350,7 +356,7 @@
         height: 20em;
       }
       @media #{$mobile} {
-        height: 11em;
+        height: 12em;
       }
     }
   }
@@ -365,7 +371,7 @@
         height: 29em;
       }
       @media #{$mobile} {
-        height: 23em;
+        height: 25em;
         margin-bottom: 2em;
       }
     }
@@ -385,7 +391,7 @@
         height: 15em;
       }
       @media #{$tablet} {
-        height: 16em;
+        height: 17em;
       }
     }
   }
@@ -413,7 +419,7 @@
         height: 12em;
       }
       @media #{$mobile} {
-        height: 16em;
+        height: 17em;
         margin-bottom: 0.5em;
       }
     }
@@ -423,7 +429,7 @@
   }
   .credit {
     @media #{$mobile} {
-        font-size: 0.8em;
+        font-size: 0.9em;
         margin-bottom: 7em;
       }
   }
@@ -434,6 +440,9 @@
     img {
       @media #{$tablet} {
         height: 25em;
+      }
+      @media #{$mobile} {
+        height: 20em;
       }
     }
   }
@@ -455,7 +464,7 @@
         height: 11.5em;
       }
     @media #{$mobile} {
-        height: 6.25em;
+        height: 7em;
     }
     }
   }
@@ -474,8 +483,8 @@
         margin-right: 0;
       }
       @media #{$mobile} {
-        width: 95%;
-        height: 95%;
+        width: 100%;
+        height: 100%;
       }
 
     }
@@ -499,7 +508,7 @@
         height: 15.5em;
       }
       @media #{$mobile} {
-        height: 8.5em;
+        height: 9.25em;
       }
     }
   }
@@ -516,7 +525,7 @@
         min-height: 20em;
       }
       @media #{$mobile} {
-        min-height: 22em;
+        min-height: 27em;
       }
     }
     @media #{$desktop} {
@@ -541,7 +550,7 @@
         height: 12em;
       }
       @media #{$mobile} {
-        height:16em;
+        height:17em;
       }
     }
     .inner-cd {
@@ -562,7 +571,7 @@
         height: 21.75em;
       }
       @media #{$mobile} {
-        height:12.25em;
+        height:13.25em;
       }
     }
     @media #{$desktop} {
@@ -589,7 +598,9 @@
         height: 14.5em;
       }
       @media #{$mobile} {
-        height: 16em;
+        // height: 16em;
+        width: 110%;
+        height: 110%;
         margin-bottom: 2em;
       }
     }
@@ -609,7 +620,7 @@
         height: 21em;
       }
       @media #{$mobile} {
-        height: 23em;
+        height: 27em;
         margin-bottom: 3em;
       }
     }
@@ -632,8 +643,8 @@
           margin-bottom:5em;
         }
         @media #{$mobile} {
+          min-width: 100%;
           min-height: 100%;
-          min-width: 95%;
           margin-bottom: 4em;
         }
       }

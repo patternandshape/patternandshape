@@ -49,7 +49,7 @@
 	display: block;
 	font-size: 5em!important;
 	visibility: hidden;
-	margin: 0.5em 1.5em -2em 1.5em;
+	margin: 0.5em 1.5em -2em 1.65em;
 	@media #{$mobile} {
 		visibility: visible;
   }
@@ -61,7 +61,7 @@
 	display: block;
 	font-size: 5em!important;
 	visibility: hidden;
-	margin: -1em 2em -2em 1em;
+	margin: -1em 2em -2em 1.25em;
 	@media #{$mobile} {
 		visibility: visible;
   }
