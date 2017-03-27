@@ -1,6 +1,6 @@
 # Pattern &amp; Shape
 
-June 24, 2016
+March 17, 2017
 
 ##### By Molly Curtin
 
@@ -25,4 +25,4 @@ Pattern &amp; Shape can be viewed at http://patternandshape.org
 
 *All rights reserved.*
 
-&copy; 2016 **Molly Curtin**
+&copy; 2017 **Molly Curtin**
